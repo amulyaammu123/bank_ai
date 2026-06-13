@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67947525528",
+    "project_id": "device-streaming-581b45d7",
+    "storage_bucket": "device-streaming-581b45d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67947525528:android:d87391c23e2fb902a767ed",
+        "android_client_info": {
+          "package_name": "com.safebank.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCowdKjahb9EtCtn49Fkd4SmHYwHNwrlSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

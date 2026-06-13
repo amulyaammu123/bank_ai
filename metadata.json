@@ -1,0 +1,6 @@
+{
+  "name": "SafeBank AI",
+  "description": "SafeBank AI protects rural and elderly users from banking fraud, scam calls, and phishing using offline persistence and real-time Gemini AI text/voice intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
