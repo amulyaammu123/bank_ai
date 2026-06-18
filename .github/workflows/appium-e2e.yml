@@ -9,6 +9,8 @@ on:
 jobs:
   e2e-tests:
     runs-on: ubuntu-latest
+    env:
+      APPIUM_HOME: ${{ github.workspace }}/.appium
     
     steps:
       - name: Enable KVM group perms
@@ -48,11 +50,14 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: |
-            # Install project test dependencies (including Appium)
+            # Set Appium Home directory locally inside workspace
+            export APPIUM_HOME=$PWD/.appium
+            
+            # Install project test dependencies (including Appium and UIAutomator2 Driver)
             npm install
             
-            # Install UIAutomator2 Driver
-            npx appium driver install uiautomator2
+            # Register local UIAutomator2 Driver in Appium Home
+            npx appium driver install --source=local --package=appium-uiautomator2-driver node_modules/appium-uiautomator2-driver || true
             
             # Start Appium Server in the background
             npx appium --log ./logs/appium_server.log > ./logs/appium_startup.log 2>&1 &
