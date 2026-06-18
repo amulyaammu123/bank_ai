@@ -19,22 +19,22 @@ jobs:
       with:
         node-version: 18
         cache: 'npm'
-        cache-dependency-path: smart-budget-v3/package-lock.json
+        cache-dependency-path: safebank-web/package-lock.json
 
     - name: Install Root Dependencies
-      working-directory: smart-budget-v3
+      working-directory: safebank-web
       run: npm install
 
     - name: Install React Application Dependencies
-      working-directory: smart-budget-v3
+      working-directory: safebank-web
       run: npm run setup:app
 
     - name: Build React Application
-      working-directory: smart-budget-v3
+      working-directory: safebank-web
       run: npm run build:app
 
     - name: Run E2E Tests on Headless Chrome
-      working-directory: smart-budget-v3
+      working-directory: safebank-web
       run: npm run test:ci
       env:
         BROWSER: chrome
@@ -45,15 +45,15 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v3
       with:
-        name: Excel-Report
-        path: smart-budget-v3/excel/E2E_Report.xlsx
+        name: SafeBankAI_Test_Report
+        path: safebank-web/excel/SafeBankAI_Test_Report.xlsx
 
     - name: Upload Mochawesome HTML Report
       if: always()
       uses: actions/upload-artifact@v3
       with:
         name: HTML-Report
-        path: smart-budget-v3/mochawesome-report/
+        path: safebank-web/mochawesome-report/
 
     - name: Upload Error Screenshots & Failure Logs
       if: failure() || always()
@@ -61,5 +61,5 @@ jobs:
       with:
         name: Failure-Artifacts
         path: |
-          smart-budget-v3/reports/failures/
-          smart-budget-v3/logs/
+          safebank-web/screenshots/
+          safebank-web/logs/

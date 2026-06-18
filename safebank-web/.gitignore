@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+react-app/node_modules/
+
+# Production builds
+dist/
+react-app/dist/
+
+# Local reports & failures
+logs/
+screenshots/
+excel/
+mochawesome-report/
+
+# Local environment variables
+.env
+.env.local
