@@ -57,8 +57,27 @@ jobs:
             # Start Appium Server in the background
             npx appium --log ./logs/appium_server.log &
             
+            # Wait 15 seconds for Appium server to start
+            sleep 15
+            
             # Run the test runner
-            USE_APK=true APK_PATH=./app/build/outputs/apk/debug/app-debug.apk npm test
+            USE_APK=true APK_PATH=./app/build/outputs/apk/debug/app-debug.apk PLATFORM_VERSION="12.0" npm test
+
+      - name: Print Appium Server Logs on Failure
+        if: failure()
+        run: |
+          if [ -f logs/appium_server.log ]; then
+            echo "=== APPIUM SERVER LOGS ==="
+            tail -n 200 logs/appium_server.log
+          else
+            echo "Appium server log file not found."
+          fi
+          if [ -f logs/appium-execution.log ]; then
+            echo "=== APPIUM EXECUTION LOGS ==="
+            tail -n 200 logs/appium-execution.log
+          else
+            echo "Appium execution log file not found."
+          fi
 
       - name: Upload Test Reports
         if: always()
