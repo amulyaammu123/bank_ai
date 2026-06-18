@@ -78,6 +78,7 @@ jobs:
           else
             echo "Appium execution log file not found."
           fi
+          node print_failures.js
 
       - name: Upload Test Reports
         if: always()
