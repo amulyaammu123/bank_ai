@@ -12,10 +12,10 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 18
         cache: 'npm'
@@ -43,21 +43,21 @@ jobs:
 
     - name: Upload Excel E2E Report
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SafeBankAI_Test_Report
         path: safebank-web/excel/SafeBankAI_Test_Report.xlsx
 
     - name: Upload Mochawesome HTML Report
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: HTML-Report
         path: safebank-web/mochawesome-report/
 
     - name: Upload Error Screenshots & Failure Logs
       if: failure() || always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Failure-Artifacts
         path: |
