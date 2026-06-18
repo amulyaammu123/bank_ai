@@ -45,7 +45,20 @@ function printAnnotations() {
     console.log('::warning::Mochawesome JSON report not found.');
   }
 
-  // 2. Check Appium Server Log
+  // 2a. Check Appium Startup Log
+  const appiumStartupLogPath = path.join(__dirname, 'logs/appium_startup.log');
+  if (fs.existsSync(appiumStartupLogPath)) {
+    try {
+      const logContent = fs.readFileSync(appiumStartupLogPath, 'utf-8');
+      const lines = logContent.split('\n');
+      const lastLines = lines.slice(-30).join(' | ').replace(/\n/g, ' ');
+      console.log(`::error title=Appium Startup Log Tail::${lastLines}`);
+    } catch (err) {
+      console.log(`::warning::Failed to read Appium Startup Log: ${err.message}`);
+    }
+  }
+
+  // 2b. Check Appium Server Log
   const appiumLogPath = path.join(__dirname, 'logs/appium_server.log');
   if (fs.existsSync(appiumLogPath)) {
     try {

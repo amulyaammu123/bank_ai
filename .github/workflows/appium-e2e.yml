@@ -55,7 +55,7 @@ jobs:
             npx appium driver install uiautomator2
             
             # Start Appium Server in the background
-            npx appium --log ./logs/appium_server.log &
+            npx appium --log ./logs/appium_server.log > ./logs/appium_startup.log 2>&1 &
             
             # Wait 15 seconds for Appium server to start
             sleep 15
@@ -66,6 +66,10 @@ jobs:
       - name: Print Appium Server Logs on Failure
         if: failure()
         run: |
+          if [ -f logs/appium_startup.log ]; then
+            echo "=== APPIUM STARTUP LOGS ==="
+            cat logs/appium_startup.log
+          fi
           if [ -f logs/appium_server.log ]; then
             echo "=== APPIUM SERVER LOGS ==="
             tail -n 200 logs/appium_server.log
