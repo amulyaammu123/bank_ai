@@ -1,0 +1,68 @@
+name: Selenium End-to-End Test Suite
+
+on:
+  push:
+    branches: [ main, master, dev ]
+  pull_request:
+    branches: [ main, master, dev ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
+
+    - name: Install Root Dependencies
+      run: npm install
+
+    - name: Install React Application Dependencies
+      run: npm run setup:app
+
+    - name: Build React Application
+      run: npm run build:app
+
+    - name: Run E2E Tests on Headless Chrome
+      run: npm run test:ci
+      env:
+        BROWSER: chrome
+        HEADLESS: true
+        ENVIRONMENT: CI_Pipeline
+
+    - name: Run E2E Tests on Headless Firefox (Cross Browser)
+      if: always()
+      run: npm run test:ci
+      env:
+        BROWSER: firefox
+        HEADLESS: true
+        ENVIRONMENT: CI_Pipeline
+
+    - name: Upload Excel E2E Report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: Excel-Report
+        path: excel/E2E_Report.xlsx
+
+    - name: Upload Mochawesome HTML Report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: HTML-Report
+        path: mochawesome-report/
+
+    - name: Upload Error Screenshots & Failure Logs
+      if: failure() || always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: Failure-Artifacts
+        path: |
+          reports/failures/
+          logs/

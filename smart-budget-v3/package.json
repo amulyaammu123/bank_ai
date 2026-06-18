@@ -1,0 +1,31 @@
+{
+  "name": "safebank-e2e-framework",
+  "version": "1.0.0",
+  "description": "Enterprise E2E Selenium Automation Framework for SafeBank AI website with dynamic form discovery",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env BROWSER=chrome HEADLESS=true mocha tests/dynamic-tests.spec.js --timeout 90000 --exit",
+    "test:headed": "cross-env BROWSER=chrome HEADLESS=false mocha tests/dynamic-tests.spec.js --timeout 90000 --exit",
+    "test:firefox": "cross-env BROWSER=firefox HEADLESS=true mocha tests/dynamic-tests.spec.js --timeout 90000 --exit",
+    "test:edge": "cross-env BROWSER=edge HEADLESS=true mocha tests/dynamic-tests.spec.js --timeout 90000 --exit",
+    "test:all-browsers": "npm run test && npm run test:firefox && npm run test:edge",
+    "setup:app": "npm install --prefix react-app",
+    "build:app": "npm run --prefix react-app build",
+    "start:app": "npm run --prefix react-app preview -- --port 5173 --host",
+    "test:ci": "concurrently -k -s first \"npm run start:app\" \"wait-on http://localhost:5173 && npm run test\""
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.3.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.16.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.2.0",
+    "wait-on": "^7.2.0"
+  }
+}

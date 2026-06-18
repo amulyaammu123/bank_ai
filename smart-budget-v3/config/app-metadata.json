@@ -1,0 +1,310 @@
+{
+  "appName": "Smart Budget v3",
+  "routes": [
+    {
+      "path": "/login",
+      "name": "Login",
+      "isProtected": false
+    },
+    {
+      "path": "/register",
+      "name": "Registration",
+      "isProtected": false
+    },
+    {
+      "path": "/dashboard",
+      "name": "Dashboard",
+      "isProtected": true
+    },
+    {
+      "path": "/income",
+      "name": "Income Manager",
+      "isProtected": true
+    },
+    {
+      "path": "/expense",
+      "name": "Expense Manager",
+      "isProtected": true
+    },
+    {
+      "path": "/budget",
+      "name": "Budget Allocator",
+      "isProtected": true
+    },
+    {
+      "path": "/reports",
+      "name": "Financial Reports",
+      "isProtected": true
+    },
+    {
+      "path": "/profile",
+      "name": "User Profile",
+      "isProtected": true
+    }
+  ],
+  "forms": {
+    "login": {
+      "submitButtonSelector": "#login-submit-btn",
+      "formSelector": "#login-form",
+      "fields": [
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "selector": "#login-email-input",
+          "placeholder": "Enter email address",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Email is required"
+            },
+            "pattern": {
+              "value": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+              "message": "Please enter a valid email address"
+            }
+          }
+        },
+        {
+          "name": "password",
+          "label": "Password",
+          "type": "password",
+          "selector": "#login-password-input",
+          "placeholder": "Enter password",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Password is required"
+            }
+          }
+        }
+      ]
+    },
+    "registration": {
+      "submitButtonSelector": "#register-submit-btn",
+      "formSelector": "#register-form",
+      "fields": [
+        {
+          "name": "fullName",
+          "label": "Full Name",
+          "type": "text",
+          "selector": "#register-name-input",
+          "placeholder": "Enter full name",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Full name is required"
+            },
+            "minLength": {
+              "value": 3,
+              "message": "Full name must be at least 3 characters"
+            }
+          }
+        },
+        {
+          "name": "email",
+          "label": "Email Address",
+          "type": "email",
+          "selector": "#register-email-input",
+          "placeholder": "Enter email address",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Email is required"
+            },
+            "pattern": {
+              "value": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+              "message": "Please enter a valid email address"
+            }
+          }
+        },
+        {
+          "name": "password",
+          "label": "Password",
+          "type": "password",
+          "selector": "#register-password-input",
+          "placeholder": "Enter password",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Password is required"
+            },
+            "minLength": {
+              "value": 6,
+              "message": "Password must be at least 6 characters"
+            }
+          }
+        },
+        {
+          "name": "agreeTerms",
+          "label": "I agree to terms and conditions",
+          "type": "checkbox",
+          "selector": "#register-agree-checkbox",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "You must agree to terms"
+            }
+          }
+        }
+      ]
+    },
+    "income": {
+      "submitButtonSelector": "#income-submit-btn",
+      "formSelector": "#income-form",
+      "fields": [
+        {
+          "name": "source",
+          "label": "Income Source",
+          "type": "text",
+          "selector": "#income-source-input",
+          "placeholder": "e.g. Salary, Freelance",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Source is required"
+            }
+          }
+        },
+        {
+          "name": "amount",
+          "label": "Amount (INR)",
+          "type": "number",
+          "selector": "#income-amount-input",
+          "placeholder": "e.g. 50000",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Amount is required"
+            },
+            "min": {
+              "value": 1,
+              "message": "Amount must be greater than zero"
+            }
+          }
+        },
+        {
+          "name": "date",
+          "label": "Date Received",
+          "type": "date",
+          "selector": "#income-date-input",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Date is required"
+            }
+          }
+        },
+        {
+          "name": "category",
+          "label": "Category",
+          "type": "select",
+          "selector": "#income-category-select",
+          "options": ["Salary", "Investments", "Gifts", "Other"],
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Category is required"
+            }
+          }
+        }
+      ]
+    },
+    "expense": {
+      "submitButtonSelector": "#expense-submit-btn",
+      "formSelector": "#expense-form",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Expense Item",
+          "type": "text",
+          "selector": "#expense-title-input",
+          "placeholder": "e.g. Grocery, Rent",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Title is required"
+            }
+          }
+        },
+        {
+          "name": "amount",
+          "label": "Amount (INR)",
+          "type": "number",
+          "selector": "#expense-amount-input",
+          "placeholder": "e.g. 2500",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Amount is required"
+            },
+            "min": {
+              "value": 1,
+              "message": "Amount must be greater than zero"
+            }
+          }
+        },
+        {
+          "name": "date",
+          "label": "Date Spent",
+          "type": "date",
+          "selector": "#expense-date-input",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Date is required"
+            }
+          }
+        },
+        {
+          "name": "category",
+          "label": "Category",
+          "type": "select",
+          "selector": "#expense-category-select",
+          "options": ["Food", "Housing", "Entertainment", "Utilities", "Other"],
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Category is required"
+            }
+          }
+        }
+      ]
+    },
+    "budget": {
+      "submitButtonSelector": "#budget-submit-btn",
+      "formSelector": "#budget-form",
+      "fields": [
+        {
+          "name": "category",
+          "label": "Category",
+          "type": "select",
+          "selector": "#budget-category-select",
+          "options": ["Food", "Housing", "Entertainment", "Utilities", "Other"],
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Category is required"
+            }
+          }
+        },
+        {
+          "name": "limit",
+          "label": "Monthly Limit (INR)",
+          "type": "number",
+          "selector": "#budget-limit-input",
+          "placeholder": "e.g. 15000",
+          "validations": {
+            "required": {
+              "value": true,
+              "message": "Limit is required"
+            },
+            "min": {
+              "value": 1,
+              "message": "Limit must be greater than zero"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

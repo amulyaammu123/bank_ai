@@ -1,0 +1,8 @@
+node_modules/
+react-app/node_modules/
+react-app/dist/
+reports/failures/
+excel/E2E_Report.xlsx
+logs/
+.env
+node-dist/
