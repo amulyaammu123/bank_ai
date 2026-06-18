@@ -39,7 +39,7 @@ jobs:
           # The debug APK will be generated at: ./app/build/outputs/apk/debug/app-debug.apk
 
       - name: Run Appium E2E Tests on Emulator
-        uses: reactive-circus/android-emulator-runner@v2
+        uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 31
           target: google_apis
