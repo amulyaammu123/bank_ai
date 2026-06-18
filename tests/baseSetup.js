@@ -10,6 +10,10 @@ const SmsPage = require('../pages/sms.page');
 const CallPage = require('../pages/call.page');
 const ReportPage = require('../pages/report.page');
 const ProfilePage = require('../pages/profile.page');
+const ChatbotPage = require('../pages/chatbot.page');
+const SosPage = require('../pages/sos.page');
+const SettingsPage = require('../pages/settings.page');
+const AdminPage = require('../pages/admin.page');
 
 /**
    * Initializes page objects and configures Mocha hooks for screenshots,
@@ -34,6 +38,21 @@ function setupTestContext(moduleName) {
     pages.call = new CallPage(driver);
     pages.report = new ReportPage(driver);
     pages.profile = new ProfilePage(driver);
+    pages.chatbot = new ChatbotPage(driver);
+    pages.sos = new SosPage(driver);
+    pages.settings = new SettingsPage(driver);
+    pages.admin = new AdminPage(driver);
+
+    // Relaunch the app to ensure clean initial UI state and clear old persistent error views
+    logger.info('Relaunching app to reset UI state...');
+    try {
+      await driver.terminateApp('com.safebank.ai');
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      await driver.activateApp('com.safebank.ai');
+      await new Promise(resolve => setTimeout(resolve, 4000));
+    } catch (e) {
+      logger.warn('Failed to relaunch app during setup:', e.message);
+    }
   });
 
   beforeEach(function () {

@@ -13,6 +13,11 @@ import androidx.lifecycle.ViewModelProvider
 import com.safebank.ai.ui.SafeBankApp
 import com.safebank.ai.ui.SafeBankViewModel
 import com.safebank.ai.ui.theme.MyApplicationTheme
+import androidx.compose.foundation.layout.Box
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +48,12 @@ class MainActivity : ComponentActivity() {
     
     setContent {
       MyApplicationTheme {
-        SafeBankApp(viewModel = viewModel)
+        @OptIn(ExperimentalComposeUiApi::class)
+        Box(modifier = Modifier.semantics {
+          testTagsAsResourceId = true
+        }) {
+          SafeBankApp(viewModel = viewModel)
+        }
       }
     }
   }

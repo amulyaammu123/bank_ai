@@ -1,0 +1,998 @@
+[2026-06-14T09:32:49.478Z] [ALL] 06-14 15:02:46.550  1486  1881 D NetdEventListenerService: DNS Requested by 204, 10347(in.amazon.mShop.android.shopping), 4(FAIL), isBlocked=true, 0ms
+[2026-06-14T09:32:49.517Z] [ALL] 06-14 15:02:46.590  4132  4132 I SDHMS:LOAD: type: LoadsFreqs, value: 6:0:0:1309759:2803000:576000:1527859:2515000:576000:12:303:0
+[2026-06-14T09:32:49.590Z] [ALL] 06-14 15:02:46.664 12840 12840 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: window
+[2026-06-14T09:32:49.605Z] [ALL] 06-14 15:02:46.678  1486  3107 I NSLocationMonitor: getGPSUsingApps() called
+[2026-06-14T09:32:49.608Z] [ALL] 06-14 15:02:46.679  3066 32489 I NSLocationManager_FLP: getGPSUsingApps, No change
+[2026-06-14T09:32:49.613Z] [ALL] 06-14 15:02:46.683  1486  2866 W ParceledListSlice: Element #12 is 41860 bytes.
+[2026-06-14T09:32:49.613Z] [ALL] 06-14 15:02:46.684  1486  2866 W ParceledListSlice: Element #13 is 28868 bytes.
+[2026-06-14T09:32:49.616Z] [ALL] 06-14 15:02:46.687  1486  3107 D MARs:ActiveTrafficFilter: filter : com.truecaller(0)
+[2026-06-14T09:32:49.616Z] [ALL] 06-14 15:02:46.687  1486  3107 D FreecessHandler: skipping freeze com.truecaller(10274) result : 8
+[2026-06-14T09:32:49.616Z] [ALL] 06-14 15:02:46.687  1486  2866 W ParceledListSlice: Element #15 is 20660 bytes.
+[2026-06-14T09:32:49.623Z] [ALL] 06-14 15:02:46.692  1486  2866 W ParceledListSlice: Element #25 is 33732 bytes.
+[2026-06-14T09:32:49.623Z] [ALL] 06-14 15:02:46.695  1486  2866 W ParceledListSlice: Element #34 is 27384 bytes.
+[2026-06-14T09:32:49.632Z] [ALL] 06-14 15:02:46.705  1486  2866 W ParceledListSlice: Element #53 is 24384 bytes.
+[2026-06-14T09:32:49.641Z] [ALL] 06-14 15:02:46.710  1486  2866 W ParceledListSlice: Element #56 is 60088 bytes.
+[2026-06-14T09:32:49.645Z] [ALL] 06-14 15:02:46.714  1486  2866 W ParceledListSlice: Element #59 is 17112 bytes.
+[2026-06-14T09:32:49.645Z] [ALL] 06-14 15:02:46.715  1486  2866 W ParceledListSlice: Element #61 is 18036 bytes.
+[2026-06-14T09:32:49.650Z] [ALL] 06-14 15:02:46.723  1486  2866 W ParceledListSlice: Element #66 is 228288 bytes.
+[2026-06-14T09:32:49.650Z] [ALL] 06-14 15:02:46.724  1486  2866 W ParceledListSlice: Overly large reply size: 239364
+[2026-06-14T09:32:49.652Z] [ALL] 06-14 15:02:46.724 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:49.653Z] [ALL] 06-14 15:02:46.725 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:49.653Z] [ALL] 06-14 15:02:46.727 10725 10763 I appium  : method: 'xpath', selector: '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]'
+[2026-06-14T09:32:49.656Z] [ALL] 06-14 15:02:46.727 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:49.656Z] [ALL] 06-14 15:02:46.728 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:49.667Z] [ALL] 06-14 15:02:46.739  1486  2866 W ParceledListSlice: Element #76 is 55868 bytes.
+[2026-06-14T09:32:49.672Z] [ALL] 06-14 15:02:46.739  1486  2866 W ParceledListSlice: Overly large reply size: 99832
+[2026-06-14T09:32:49.672Z] [ALL] 06-14 15:02:46.743  1486  2866 W ParceledListSlice: Element #80 is 38272 bytes.
+[2026-06-14T09:32:49.672Z] [ALL] 06-14 15:02:46.744  1486  2866 W ParceledListSlice: Element #81 is 54636 bytes.
+[2026-06-14T09:32:49.674Z] [ALL] 06-14 15:02:46.744  1486  2866 W ParceledListSlice: Overly large reply size: 113100
+[2026-06-14T09:32:49.675Z] [ALL] 06-14 15:02:46.749  1486  2866 W ParceledListSlice: Element #87 is 22108 bytes.
+[2026-06-14T09:32:49.678Z] [ALL] 06-14 15:02:46.749  1486  2866 W ParceledListSlice: Element #89 is 16656 bytes.
+[2026-06-14T09:32:49.679Z] [ALL] 06-14 15:02:46.753  1486  4292 W ParceledListSlice: Element #90 is 34904 bytes.
+[2026-06-14T09:32:49.679Z] [ALL] 06-14 15:02:46.753  1486  4292 W ParceledListSlice: Element #93 is 17740 bytes.
+[2026-06-14T09:32:49.684Z] [ALL] 06-14 15:02:46.758  1486  3016 W ParceledListSlice: Element #100 is 16392 bytes.
+[2026-06-14T09:32:49.689Z] [ALL] 06-14 15:02:46.761  1486  3016 W ParceledListSlice: Element #106 is 42564 bytes.
+[2026-06-14T09:32:49.692Z] [ALL] 06-14 15:02:46.762  1486  3016 W ParceledListSlice: Element #109 is 26804 bytes.
+[2026-06-14T09:32:49.692Z] [ALL] 06-14 15:02:46.762  1486  3016 W ParceledListSlice: Overly large reply size: 88568
+[2026-06-14T09:32:49.692Z] [ALL] 06-14 15:02:46.765  1486  3016 W ParceledListSlice: Element #111 is 27924 bytes.
+[2026-06-14T09:32:49.693Z] [ALL] 06-14 15:02:46.766  1486  3016 W ParceledListSlice: Element #116 is 40356 bytes.
+[2026-06-14T09:32:49.693Z] [ALL] 06-14 15:02:46.767  1486  3016 W ParceledListSlice: Overly large reply size: 98572
+[2026-06-14T09:32:49.697Z] [ALL] 06-14 15:02:46.771  1486  4292 W ParceledListSlice: Element #121 is 160816 bytes.
+[2026-06-14T09:32:49.697Z] [ALL] 06-14 15:02:46.771  1486  4292 W ParceledListSlice: Overly large reply size: 198952
+[2026-06-14T09:32:49.704Z] [ALL] 06-14 15:02:46.779  1486  4292 W ParceledListSlice: Element #122 is 16904 bytes.
+[2026-06-14T09:32:49.706Z] [ALL] 06-14 15:02:46.780  1486  4292 W ParceledListSlice: Element #130 is 25240 bytes.
+[2026-06-14T09:32:49.706Z] [ALL] 06-14 15:02:46.780  1486  4292 W ParceledListSlice: Overly large reply size: 82892
+[2026-06-14T09:32:49.710Z] [ALL] 06-14 15:02:46.784  1486  3016 W ParceledListSlice: Element #132 is 43724 bytes.
+[2026-06-14T09:32:49.712Z] [ALL] 06-14 15:02:46.784  1486  3016 W ParceledListSlice: Element #133 is 25024 bytes.
+[2026-06-14T09:32:49.714Z] [ALL] 06-14 15:02:46.787  1486  3016 W ParceledListSlice: Element #134 is 31176 bytes.
+[2026-06-14T09:32:49.714Z] [ALL] 06-14 15:02:46.788  1486  3016 W ParceledListSlice: Element #139 is 19416 bytes.
+[2026-06-14T09:32:49.720Z] [ALL] 06-14 15:02:46.791  1486  3016 W ParceledListSlice: Element #140 is 32580 bytes.
+[2026-06-14T09:32:49.723Z] [ALL] 06-14 15:02:46.792  1486  3016 W ParceledListSlice: Element #144 is 19584 bytes.
+[2026-06-14T09:32:49.724Z] [ALL] 06-14 15:02:46.794  1486  3016 W ParceledListSlice: Element #145 is 18416 bytes.
+[2026-06-14T09:32:49.726Z] [ALL] 06-14 15:02:46.794  1486  3016 W ParceledListSlice: Element #150 is 21792 bytes.
+[2026-06-14T09:32:49.726Z] [ALL] 06-14 15:02:46.798  1486  3016 W ParceledListSlice: Element #158 is 19644 bytes.
+[2026-06-14T09:32:49.727Z] [ALL] 06-14 15:02:46.802  1486  3016 W ParceledListSlice: Element #167 is 18112 bytes.
+[2026-06-14T09:32:49.729Z] [ALL] 06-14 15:02:46.802  1486  3016 W ParceledListSlice: Element #170 is 29056 bytes.
+[2026-06-14T09:32:49.729Z] [ALL] 06-14 15:02:46.802  1486  3016 W ParceledListSlice: Overly large reply size: 85984
+[2026-06-14T09:32:49.731Z] [ALL] 06-14 15:02:46.805  1486  3016 W ParceledListSlice: Element #171 is 24820 bytes.
+[2026-06-14T09:32:49.733Z] [ALL] 06-14 15:02:46.806  1486  3016 W ParceledListSlice: Element #174 is 54092 bytes.
+[2026-06-14T09:32:49.733Z] [ALL] 06-14 15:02:46.806  1486  3016 W ParceledListSlice: Overly large reply size: 86148
+[2026-06-14T09:32:49.735Z] [ALL] 06-14 15:02:46.809 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]' XPath2 query
+[2026-06-14T09:32:49.735Z] [ALL] 06-14 15:02:46.810  1486  3016 W ParceledListSlice: Element #176 is 29500 bytes.
+[2026-06-14T09:32:49.737Z] [ALL] 06-14 15:02:46.810  1486  3016 W ParceledListSlice: Element #177 is 40588 bytes.
+[2026-06-14T09:32:49.737Z] [ALL] 06-14 15:02:46.811 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-007600000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-007600000004"}}
+[2026-06-14T09:32:49.741Z] [ALL] 06-14 15:02:46.813  1486  3016 W ParceledListSlice: Element #181 is 26864 bytes.
+[2026-06-14T09:32:49.743Z] [ALL] 06-14 15:02:46.817  1486  3016 W ParceledListSlice: Element #193 is 19516 bytes.
+[2026-06-14T09:32:49.745Z] [ALL] 06-14 15:02:46.818  1486  3016 W ParceledListSlice: Element #194 is 33600 bytes.
+[2026-06-14T09:32:49.745Z] [ALL] 06-14 15:02:46.818  1486  3016 W ParceledListSlice: Overly large reply size: 91828
+[2026-06-14T09:32:49.747Z] [ALL] 06-14 15:02:46.821  1486  4292 W ParceledListSlice: Element #196 is 16504 bytes.
+[2026-06-14T09:32:49.748Z] [ALL] 06-14 15:02:46.821  1486  4292 W ParceledListSlice: Element #198 is 16520 bytes.
+[2026-06-14T09:32:49.750Z] [ALL] 06-14 15:02:46.824  1486  4292 W ParceledListSlice: Element #204 is 45652 bytes.
+[2026-06-14T09:32:49.752Z] [ALL] 06-14 15:02:46.826  1486  4292 W ParceledListSlice: Element #209 is 47816 bytes.
+[2026-06-14T09:32:49.755Z] [ALL] 06-14 15:02:46.829  1486  4292 W ParceledListSlice: Element #214 is 35416 bytes.
+[2026-06-14T09:32:49.766Z] [ALL] 06-14 15:02:46.832  1486  4292 W ParceledListSlice: Element #218 is 19308 bytes.
+[2026-06-14T09:32:49.766Z] [ALL] 06-14 15:02:46.832  1486  4292 W ParceledListSlice: Element #219 is 19856 bytes.
+[2026-06-14T09:32:49.766Z] [ALL] 06-14 15:02:46.832  1486  4292 W ParceledListSlice: Element #220 is 22684 bytes.
+[2026-06-14T09:32:49.774Z] [ALL] 06-14 15:02:46.848 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/attribute/displayed
+[2026-06-14T09:32:49.776Z] [ALL] 06-14 15:02:46.848 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:49.781Z] [ALL] 06-14 15:02:46.856 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:49.790Z] [ALL] 06-14 15:02:46.863  1486  1541 D AppOpHistoryHelper: MetricHandler reporting 56 records.
+[2026-06-14T09:32:49.797Z] [ALL] 06-14 15:02:46.872 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/click
+[2026-06-14T09:32:49.799Z] [ALL] 06-14 15:02:46.873 10725 10763 I appium  : Click command
+[2026-06-14T09:32:49.809Z] [ALL] 06-14 15:02:46.884  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:49.815Z] [ALL] 06-14 15:02:46.890  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 60
+[2026-06-14T09:32:49.821Z] [ALL] 06-14 15:02:46.895 12089 12108 W diacorp.android: userfaultfd: MOVE ioctl seems unsupported: Try again
+[2026-06-14T09:32:49.823Z] [ALL] 06-14 15:02:46.898  1149  1149 I SurfaceFlinger: SFWD update time=180381287496285
+[2026-06-14T09:32:49.825Z] [ALL] 06-14 15:02:46.900  1149  1149 I SurfaceFlinger: No layers with votes - choose 120.00 Hz
+[2026-06-14T09:32:49.827Z] [ALL] 06-14 15:02:46.902  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:49.829Z] [ALL] 06-14 15:02:46.902  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 3
+[2026-06-14T09:32:49.831Z] [ALL] 06-14 15:02:46.905  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(3)
+[2026-06-14T09:32:49.831Z] [ALL] 06-14 15:02:46.905  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:49.831Z] [ALL] 06-14 15:02:46.905  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 3, base: 3, try: 1
+[2026-06-14T09:32:49.831Z] [ALL] 06-14 15:02:46.905  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@120hs
+[2026-06-14T09:32:49.831Z] [ALL] 06-14 15:02:46.905  1062 15192 I display : commit modeset : 1080x2340@120hs
+[2026-06-14T09:32:49.848Z] [ALL] 06-14 15:02:46.922  1062 15192 W display : deliverWinConfigData:: commit modeset time (17 ms)
+[2026-06-14T09:32:49.850Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 83 of display(0)
+[2026-06-14T09:32:49.851Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set m2mMPP capacity(4) for fps(120)
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity config for fps(120) : cpuIDs : 255
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:49.854Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:49.856Z] [ALL] 06-14 15:02:46.924  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:49.856Z] [ALL] 06-14 15:02:46.925  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:49.856Z] [ALL] 06-14 15:02:46.925  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:49.856Z] [ALL] 06-14 15:02:46.925  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:49.859Z] [ALL] 06-14 15:02:46.925  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:49.863Z] [ALL] 06-14 15:02:46.925  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 120
+[2026-06-14T09:32:49.866Z] [ALL] 06-14 15:02:46.928  1486  2866 D InputDispatcher: Inject motion (10713/2000): action=0x0, time=180381269000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.929  1486  1665 I InputDispatcher: Delivering touch to (2112): action: 0x4, f=0x0, d=0, '1dcab54', t=1 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.929  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x0, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.930  1486  1665 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=180381269
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.930  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -47170599 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.930  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -47170599 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.931  1486  1665 D PowerManagerService: UserActivityStateListenerState: 1
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.931 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 0
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.935  1486  2866 D InputDispatcher: Inject motion (10713/2000): action=0x1, time=180381323000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.935  4132  4132 I SemDvfsHyPerManager: acquire hyper - TABoost/4132@29, type = -999
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.935  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x1, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.936  1075  1175 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8659070  [4132 / 29]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.936  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -347855865
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.936  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -347855865
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.938  2619  2619 I HoneySpace.InputConsumerFactory: checkMultiFingerGesture: returning NO_OP - gesture disabled or blocked
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.938  2619  2619 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@b9cdf5b]
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.940  2619  2619 I HoneySpace.InputSession: inputConsumers = NO_OP
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.940 11061 11061 I VRI[MainActivity]@99da679: call setFrameRateCategory for touch hint category=high hint, reason=touch, vri=VRI[MainActivity]@99da679
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.941 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 1
+[2026-06-14T09:32:49.868Z] [ALL] 06-14 15:02:46.941  2619  2619 I HoneySpace.InputSession: open
+[2026-06-14T09:32:49.870Z] [ALL] 06-14 15:02:46.942  2619  2619 I HoneySpace.GestureInputHandler: reset
+[2026-06-14T09:32:49.870Z] [ALL] 06-14 15:02:46.942  2619  2619 I HoneySpace.InputSession: close
+[2026-06-14T09:32:49.874Z] [ALL] 06-14 15:02:46.948  1149  1149 I SurfaceFlinger: [com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622] setFrameRateCategory: HighHint
+[2026-06-14T09:32:49.882Z] [ALL] 06-14 15:02:46.956 10725 10763 W GestureController: Gestures took longer than expected (76ms >> 8ms), device might be in a busy state.
+[2026-06-14T09:32:49.884Z] [ALL] 06-14 15:02:46.956 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:49.884Z] [ALL] 06-14 15:02:46.956  1149  1280 I SurfaceFlinger: Current= 120, Period= 120, hwcPeriod= 120
+[2026-06-14T09:32:50.151Z] [ALL] 06-14 15:02:47.223  9787 10418 D BufferPoolAccessor2.0: bufferpool2 0xb400006e03283788 : 5(40960 size) total buffers - 0(0 size) used buffers - 12/17 (recycle/alloc) - 6/17 (fetch/transfer)
+[2026-06-14T09:32:50.154Z] [ALL] 06-14 15:02:47.223  9787 10418 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+[2026-06-14T09:32:50.158Z] [ALL] 06-14 15:02:47.230  1486  1515 I GestureDetector: handleMessage TAP
+[2026-06-14T09:32:50.158Z] [ALL] 06-14 15:02:47.231  1486  1486 I GestureDetector: handleMessage TAP
+[2026-06-14T09:32:50.180Z] [ALL] 06-14 15:02:47.252  1274  1442 D BufferPoolAccessor2.0: bufferpool2 0xb4000072321634f8 : 4(16384 size) total buffers - 2(8192 size) used buffers - 10/14 (recycle/alloc) - 7/14 (fetch/transfer)
+[2026-06-14T09:32:50.180Z] [ALL] 06-14 15:02:47.252  1274  1442 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+[2026-06-14T09:32:50.253Z] [ALL] 06-14 15:02:47.327 12668 12853 D ProfileInstaller: Installing profile for com.amazon.mp3
+[2026-06-14T09:32:50.290Z] [ALL] 06-14 15:02:47.361   747   747 D io_stats: !@   8,0 r 79753867 1573044721 w 12672263 207613828 d 4211455 258782936 f 0 1106541 iot 28685468 0 th 0 0 0 pt 0 inp 0 0 180381.750
+[2026-06-14T09:32:50.290Z] [ALL] 06-14 15:02:47.362   747   747 D io_stats: !@ Read_top(KB): stagram.android(11887) 7132 facebook.katana(9787) 1552 com.amazon.mp3(12668) 836
+[2026-06-14T09:32:50.290Z] [ALL] 06-14 15:02:47.362   747   747 D io_stats: !@ Write_top(KB): kworker/u16:2(15734) 3308 f2fs_ckpt-254:5(789) 900 ndroid.shopping(12061) 24
+[2026-06-14T09:32:50.493Z] [ALL] 06-14 15:02:47.555 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":null}
+[2026-06-14T09:32:50.530Z] [ALL] 06-14 15:02:47.587  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.596  1149  1149 I SurfaceFlinger: com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 voted ExplicitCategory with category: HighHint
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.596  1149  1149 I SurfaceFlinger: IdleFps - choose 60.00 Hz
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.597  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.597  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 4
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.599  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(4)
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.599  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.599  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 5, base: 4, try: 0
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.599  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@60phs
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.599  1062 15192 I display : commit modeset : 1080x2340@60phs
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.600 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.601 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.606 10725 10763 I appium  : method: 'xpath', selector: '//*[@resource-id="login_submit_btn" or @content-desc="login_submit_btn" or @text="Login" or @text="LOGIN" or contains(@text, "OTP") or contains(@text, "Verify") or contains(@text, "Sign Up") or contains(@text, "ధృవీకరించండి") or contains(@text, "लॉगिन") or contains(@text, "உள்நுழை")]'
+[2026-06-14T09:32:50.729Z] [ALL] 06-14 15:02:47.607 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.613 10725 10763 I appium  : The following attributes will be included to the page source: [resource-id, text, content-desc]
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.615  1062 15192 W display : deliverWinConfigData:: commit modeset time (15 ms)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.616  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 166 of display(0)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set m2mMPP capacity(8) for fps(60)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity config for fps(60) : cpuIDs : 255
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.617  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.618  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.618  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 60
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.619  1149  1149 D SurfaceFlinger: GPIS:: requestGpisForSFSluggish
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.619  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.646 10725 10729 I tomator2.server: Method exceeds compiler instruction limit: 19260 in java_cup.runtime.Symbol org.eclipse.wst.xml.xpath2.processor.internal.CUP$XPathCup$actions.CUP$XPathCup$do_action(int, java_cup.runtime.lr_parser, java.util.Stack, int)
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.792 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@resource-id="login_submit_btn" or @content-desc="login_submit_btn" or @text="Login" or @text="LOGIN" or contains(@text, "OTP") or contains(@text, "Verify") or contains(@text, "Sign Up") or contains(@text, "ధృవీకరించండి") or contains(@text, "लॉगिन") or contains(@text, "உள்நுழை")]' XPath2 query
+[2026-06-14T09:32:50.870Z] [ALL] 06-14 15:02:47.794 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-007b00000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-007b00000004"}}
+[2026-06-14T09:32:51.114Z] [ALL] 06-14 15:02:48.127  1486  1651 D ActivityManager: freezing 12044 com.google.android.as.oss
+[2026-06-14T09:32:51.114Z] [ALL] 06-14 15:02:48.135  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:51.114Z] [ALL] 06-14 15:02:48.139  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:51.114Z] [ALL] 06-14 15:02:48.140  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={10259} in 8ms
+[2026-06-14T09:32:51.128Z] [ALL] 06-14 15:02:48.184 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007b00000004/attribute/displayed
+[2026-06-14T09:32:51.128Z] [ALL] 06-14 15:02:48.185 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:51.462Z] [ALL] 06-14 15:02:48.197 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.311  1486  1729 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.320  2072  2072 I EPDG-0 [WifiProfiler]: handleWifiRssiIntent, rssi=-49
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.321  2072  2072 I EPDG-0 [WifiProfiler]: isProfiling, hash=189204772, started=true
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.320  1486  3494 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22858, isSameBssidAndFreq true
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.321  1486  1830 I SemWifiLinkQualityMonitor: Link stat: 106 / 22 / 1.00 (4) / 144 / -49.0 || 100.0 : 144.00 / 0.5 : 1.00 / 0.55 : 0.21 / G (G) || 75790cca2437: 0.146 / 54.640 / N / V || N N / 0 0 / N 2.0 / N -1 0.000 0.000 / N / X 0 / 180382709 0 0 || 2026-06-14 15:02:47  / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0 / 0: 0 0 0 0 0 0
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.322  2072  2072 I EPDG-0 [LogMetrics]: set, type=WIFI_RSSI_LAST, value=-49
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.322  2072  2072 I EPDG-0 [WifiProfiler]: isProfiling, hash=189204772, started=true
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.323  2072  2072 I EPDG-0 [WifiProfiler]: Rssi : -49 highrange : -75 lowrange : -85 mIsRssiInHystersis : false
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.323  2072  2072 I EPDG-0 [WifiProfiler]: Rssi : -49 highrange : -75 lowrange : -85 mIsRssiInHystersis : false
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.323  2072  2072 I EPDG-0 [Subscription]: isEpdgAvailable, IwlanPsState=2/2
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.324  2072  2072 I EPDG-0 [WifiProfiler]: getHandoverThresholdMet: value is: false
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.360 12089 12107 I diacorp.android: Method exceeds compiler instruction limit: 19967 in java.lang.Object[] com.bumptech.glide.load.model.StringLoader$FileDescriptorFactory.animateTranslation$e246348(int, int, java.lang.Object, int, boolean, boolean, int[])
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.437  1486  1651 D ActivityManager: freezing 12128 com.samsung.cmh
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.438  1075 12849 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 8659070
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.445  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.446  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:51.463Z] [ALL] 06-14 15:02:48.446  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={15005004} in 4ms
+[2026-06-14T09:32:51.619Z] [ALL] 06-14 15:02:48.576 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:51.644Z] [ALL] 06-14 15:02:48.578 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:51.644Z] [ALL] 06-14 15:02:48.580 10725 10763 I appium  : method: 'xpath', selector: '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]'
+[2026-06-14T09:32:51.644Z] [ALL] 06-14 15:02:48.581 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:51.644Z] [ALL] 06-14 15:02:48.585 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:51.644Z] [ALL] 06-14 15:02:48.593  1486  1828 I SemWifiServiceDetector: Service det. suspended: T / T / 19967
+[2026-06-14T09:32:51.714Z] [ALL] 06-14 15:02:48.718 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]' XPath2 query
+[2026-06-14T09:32:51.714Z] [ALL] 06-14 15:02:48.720 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-007600000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-007600000004"}}
+[2026-06-14T09:32:52.213Z] [ALL] 06-14 15:02:48.850 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/attribute/displayed
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:48.851 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:48.863 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:48.888  1486  1881 D NetdEventListenerService: DNS Requested by 204, 10347(in.amazon.mShop.android.shopping), 4(FAIL), isBlocked=true, 0ms
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:49.211  1486  1651 D ActivityManager: freezing 9850 com.samsung.storyservice
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:49.219  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:49.225  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:52.253Z] [ALL] 06-14 15:02:49.226  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={5004} in 12ms
+[2026-06-14T09:32:52.262Z] [ALL] 06-14 15:02:49.334 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/click
+[2026-06-14T09:32:52.262Z] [ALL] 06-14 15:02:49.335 10725 10763 I appium  : Click command
+[2026-06-14T09:32:52.661Z] [ALL] 06-14 15:02:49.350  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.352  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 60
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.357  1149  1149 I SurfaceFlinger: com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 voted ExplicitCategory with category: HighHint
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.357  1149  1149 I SurfaceFlinger: Touch Boost [late] - choose 120.00 Hz
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.363   747   747 D io_stats: !@   8,0 r 79753905 1573046069 w 12672474 207614744 d 4211555 258783784 f 0 1106551 iot 28685576 0 th 0 0 0 pt 0 inp 0 1 180383.752
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.364  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.364  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 3
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.366  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 60
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.367  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(3)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.367  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.367  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 3, base: 3, try: 1
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.367  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@120hs
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.367  1062 15192 I display : commit modeset : 1080x2340@120hs
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.381  1062 15192 W display : deliverWinConfigData:: commit modeset time (14 ms)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 83 of display(0)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set m2mMPP capacity(4) for fps(120)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity config for fps(120) : cpuIDs : 255
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.382  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.383  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.383  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.383  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.383  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.383  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.384  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 120
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.386  1486  2866 D InputDispatcher: Inject motion (10713/2000): action=0x0, time=180383735000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.387  1486  1665 I InputDispatcher: Delivering touch to (2112): action: 0x4, f=0x0, d=0, '1dcab54', t=1 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.387  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x0, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.388  1486  1665 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=180383735
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.389 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 0
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.391  4132  4132 I SemDvfsHyPerManager: acquire hyper - TABoost/4132@29, type = -999
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.391  2619  2619 I HoneySpace.InputConsumerFactory: checkMultiFingerGesture: returning NO_OP - gesture disabled or blocked
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.392  2619  2619 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@b9cdf5b]
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.392  2619  2619 I HoneySpace.InputSession: inputConsumers = NO_OP
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.392  2619  2619 I HoneySpace.InputSession: open
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.392  1075  1175 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8659070  [4132 / 29]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.395  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -974289542 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.395  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -974289542 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.399  1486  3016 D InputDispatcher: Inject motion (10713/2000): action=0x1, time=180383787000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.400  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x1, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.400  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -612485008
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.400  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -612485008
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.401 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 1
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.402  2619  2619 I HoneySpace.GestureInputHandler: reset
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.402  2619  2619 I HoneySpace.InputSession: close
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.405  1486  1860 D WifiConnectivityMonitor.NetworkStatsAnalyzer: Backhaul result - RSSI:-54, CE:20, PE:26, TI:28, PTI:34, TW:3, PTW:1, Tx:436, Rx:520, TxS:238, RxS:276, RESULT:true, IC:0, ICT:5, WC:0, WCT:5, R:10, RC:0, IE:0, EC:0
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.413 10725 10763 W GestureController: Gestures took longer than expected (67ms >> 8ms), device might be in a busy state.
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.413 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.416 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":null}
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.639  1486  1651 D ActivityManager: freezing 12076 com.linkedin.android
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.647  1486  1651 D ActivityManager: freezing 12089 sg.mediacorp.android
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.659  1486  1523 I ActivityManager: Changes in 10343 11 to 15, 384 to 256
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.662  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.666  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.666  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={10318} in 9ms
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.666  1486  1741 D ConnectivityService: Freezing callbacks for UID 10318
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.670  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.675  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.675  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={10370} in 8ms
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.675  1486  1741 D ConnectivityService: Freezing callbacks for UID 10370
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.695  1486  1486 I GestureDetector: handleMessage TAP
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.695  1486  1515 I GestureDetector: handleMessage TAP
+[2026-06-14T09:32:52.784Z] [ALL] 06-14 15:02:49.733  1486  1651 D ActivityManager: freezing 6911 com.android.vending:background
+[2026-06-14T09:32:52.838Z] [ALL] 06-14 15:02:49.824 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:52.838Z] [ALL] 06-14 15:02:49.827 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:52.838Z] [ALL] 06-14 15:02:49.830 10725 10763 I appium  : method: 'xpath', selector: '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]'
+[2026-06-14T09:32:52.838Z] [ALL] 06-14 15:02:49.831 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:52.838Z] [ALL] 06-14 15:02:49.835 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:52.955Z] [ALL] 06-14 15:02:50.027  1486  3016 D PowerManagerService: [api] setMasterBrightnessLimit : lowerLimit : -1  upperLimit : 389  mMasterBrightnessLimitPeriod : 200 (uid: 1000 pid: 4132)
+[2026-06-14T09:32:52.955Z] [ALL] 06-14 15:02:50.028  1486  1556 D PowerManagerService: [api] BrightnessLimitRunnable done
+[2026-06-14T09:32:52.963Z] [ALL] 06-14 15:02:50.032  1486  2866 I ActivityManager: Changes in 10470 11 to 19, 384 to 0
+[2026-06-14T09:32:52.971Z] [ALL] 06-14 15:02:50.035  1486  1538 D BatteryExternalStatsWorker: update stats : update-network-download (6)
+[2026-06-14T09:32:52.971Z] [ALL] 06-14 15:02:50.035  1486  1526 I ActivityManager: Changes in 10470 19 to 11, 0 to 384
+[2026-06-14T09:32:52.973Z] [ALL] 06-14 15:02:50.036  1486  1538 D BatteryExternalStatsWorker: Fetch WiFi data
+[2026-06-14T09:32:52.973Z] [ALL] 06-14 15:02:50.037  1486  1538 D BatteryExternalStatsWorker: Update Rail Energy data
+[2026-06-14T09:32:52.973Z] [ALL] 06-14 15:02:50.043  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:52.973Z] [ALL] 06-14 15:02:50.048  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 120
+[2026-06-14T09:32:52.980Z] [ALL] 06-14 15:02:50.049  1149  1149 I SurfaceFlinger: com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 voted ExplicitCategory with category: HighHint
+[2026-06-14T09:32:52.980Z] [ALL] 06-14 15:02:50.049  1149  1149 I SurfaceFlinger: IdleFps - choose 60.00 Hz
+[2026-06-14T09:32:52.980Z] [ALL] 06-14 15:02:50.049  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:52.980Z] [ALL] 06-14 15:02:50.049  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 4
+[2026-06-14T09:32:52.981Z] [ALL] 06-14 15:02:50.051  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(4)
+[2026-06-14T09:32:52.981Z] [ALL] 06-14 15:02:50.051  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:52.981Z] [ALL] 06-14 15:02:50.051  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 5, base: 4, try: 0
+[2026-06-14T09:32:52.981Z] [ALL] 06-14 15:02:50.051  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@60phs
+[2026-06-14T09:32:52.981Z] [ALL] 06-14 15:02:50.051  1062 15192 I display : commit modeset : 1080x2340@60phs
+[2026-06-14T09:32:52.984Z] [ALL] 06-14 15:02:50.057  1486  1729 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+[2026-06-14T09:32:52.984Z] [ALL] 06-14 15:02:50.058  1486  1538 D BatteryExternalStatsWorker: mStats lock released
+[2026-06-14T09:32:52.990Z] [ALL] 06-14 15:02:50.064  1062 15192 W display : deliverWinConfigData:: commit modeset time (13 ms)
+[2026-06-14T09:32:52.990Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 166 of display(0)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set m2mMPP capacity(8) for fps(60)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity config for fps(60) : cpuIDs : 255
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.065  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.066  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.066  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.066  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.066  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 60
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.067  1149  1149 D SurfaceFlinger: GPIS:: requestGpisForSFSluggish
+[2026-06-14T09:32:52.995Z] [ALL] 06-14 15:02:50.067  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:52.997Z] [ALL] 06-14 15:02:50.068  1486  1538 D BatteryExternalStatsWorker: Update wifi state
+[2026-06-14T09:32:52.997Z] [ALL] 06-14 15:02:50.068  1486  1538 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+[2026-06-14T09:32:53.073Z] [ALL] 06-14 15:02:50.113 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@text="Already have an account? Login" or @text="New here? Sign Up"]' XPath2 query
+[2026-06-14T09:32:53.084Z] [ALL] 06-14 15:02:50.115 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-007600000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-007600000004"}}
+[2026-06-14T09:32:53.101Z] [ALL] 06-14 15:02:50.175 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/attribute/displayed
+[2026-06-14T09:32:53.103Z] [ALL] 06-14 15:02:50.176 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:53.114Z] [ALL] 06-14 15:02:50.188 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:53.133Z] [ALL] 06-14 15:02:50.207 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007600000004/click
+[2026-06-14T09:32:53.136Z] [ALL] 06-14 15:02:50.208 10725 10763 I appium  : Click command
+[2026-06-14T09:32:53.150Z] [ALL] 06-14 15:02:50.224  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:53.158Z] [ALL] 06-14 15:02:50.232  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 60
+[2026-06-14T09:32:53.169Z] [ALL] 06-14 15:02:50.241  1149  1149 I SurfaceFlinger: com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 voted ExplicitCategory with category: HighHint
+[2026-06-14T09:32:53.169Z] [ALL] 06-14 15:02:50.241  1149  1149 I SurfaceFlinger: Touch Boost [late] - choose 120.00 Hz
+[2026-06-14T09:32:53.169Z] [ALL] 06-14 15:02:50.242  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=120.00 Hz, modePtr={id=0, vsyncRate=120.00 Hz, peakRefreshRate=120.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:53.169Z] [ALL] 06-14 15:02:50.242  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 3
+[2026-06-14T09:32:53.172Z] [ALL] 06-14 15:02:50.244  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(3)
+[2026-06-14T09:32:53.172Z] [ALL] 06-14 15:02:50.244  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:53.172Z] [ALL] 06-14 15:02:50.244  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 3, base: 3, try: 1
+[2026-06-14T09:32:53.172Z] [ALL] 06-14 15:02:50.244  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@120hs
+[2026-06-14T09:32:53.172Z] [ALL] 06-14 15:02:50.244  1062 15192 I display : commit modeset : 1080x2340@120hs
+[2026-06-14T09:32:53.192Z] [ALL] 06-14 15:02:50.265  1062 15192 W display : deliverWinConfigData:: commit modeset time (20 ms)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 83 of display(0)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set m2mMPP capacity(4) for fps(120)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : getFpsForPerformance, performance table found using table(key:120, cpu:255)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity config for fps(120) : cpuIDs : 255
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.266  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.267  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.267  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.267  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.267  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.267  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.268  1149  1280 I SurfaceFlinger: Current= 60, Period= 120, hwcPeriod= 120
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.270  1486  3016 D InputDispatcher: Inject motion (10713/2000): action=0x0, time=180384609000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.271  1486  1665 I InputDispatcher: Delivering touch to (2112): action: 0x4, f=0x0, d=0, '1dcab54', t=1 
+[2026-06-14T09:32:53.200Z] [ALL] 06-14 15:02:50.271  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x0, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.272  1486  1665 D PowerManagerService: displayReady: false groupId=0
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.274  1486  1556 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.274 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 0
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.274  1486  1556 D DisplayPowerController[0]: putAutoBrightnessTransitionTime: transitionTime=0
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.275  1486  1556 D SettingsProvider: PUT_ret(/system/auto_brightness_transition_time), callingPackage:android
+[2026-06-14T09:32:53.204Z] [ALL] 06-14 15:02:50.276  1486  1556 D PowerManagerService: displayReady: true groupId=0
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.280  4132  4132 I SemDvfsHyPerManager: acquire hyper - TABoost/4132@29, type = -999
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.280  2619  2619 I HoneySpace.InputConsumerFactory: checkMultiFingerGesture: returning NO_OP - gesture disabled or blocked
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.280  2619  2619 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@b9cdf5b]
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.281  1075  1175 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8659070  [4132 / 29]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.281  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -228302324 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.281  2619  2619 I HoneySpace.InputSession: inputConsumers = NO_OP
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.282  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -228302324 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.282  2619  2619 I HoneySpace.InputSession: open
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.285  1486  3016 D InputDispatcher: Inject motion (10713/2000): action=0x1, time=180384667000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.285  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x1, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:53.213Z] [ALL] 06-14 15:02:50.286 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 1
+[2026-06-14T09:32:53.216Z] [ALL] 06-14 15:02:50.287  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -673601784
+[2026-06-14T09:32:53.216Z] [ALL] 06-14 15:02:50.287  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -673601784
+[2026-06-14T09:32:53.216Z] [ALL] 06-14 15:02:50.290  2619  2619 I HoneySpace.GestureInputHandler: reset
+[2026-06-14T09:32:53.216Z] [ALL] 06-14 15:02:50.290  2619  2619 I HoneySpace.InputSession: close
+[2026-06-14T09:32:53.216Z] [ALL] 06-14 15:02:50.290  2112  2112 D BrightnessControllerObserver: BrightnessObserver.onChange() : auto_brightness_transition_time
+[2026-06-14T09:32:53.234Z] [ALL] 06-14 15:02:50.307 10725 10763 W GestureController: Gestures took longer than expected (87ms >> 8ms), device might be in a busy state.
+[2026-06-14T09:32:53.234Z] [ALL] 06-14 15:02:50.307 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:53.236Z] [ALL] 06-14 15:02:50.310 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":null}
+[2026-06-14T09:32:53.260Z] [ALL] 06-14 15:02:50.335 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:53.263Z] [ALL] 06-14 15:02:50.336 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:53.265Z] [ALL] 06-14 15:02:50.338 10725 10763 I appium  : method: 'xpath', selector: '//*[@resource-id="login_submit_btn" or @content-desc="login_submit_btn" or @text="Login" or @text="LOGIN" or contains(@text, "OTP") or contains(@text, "Verify") or contains(@text, "Sign Up") or contains(@text, "ధృవీకరించండి") or contains(@text, "लॉगिन") or contains(@text, "உள்நுழை")]'
+[2026-06-14T09:32:53.265Z] [ALL] 06-14 15:02:50.339 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:53.267Z] [ALL] 06-14 15:02:50.342 10725 10763 I appium  : The following attributes will be included to the page source: [resource-id, text, content-desc]
+[2026-06-14T09:32:53.285Z] [ALL] 06-14 15:02:50.359 10725 10729 I tomator2.server: Method exceeds compiler instruction limit: 19260 in java_cup.runtime.Symbol org.eclipse.wst.xml.xpath2.processor.internal.CUP$XPathCup$actions.CUP$XPathCup$do_action(int, java_cup.runtime.lr_parser, java.util.Stack, int)
+[2026-06-14T09:32:53.360Z] [ALL] 06-14 15:02:50.433 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@resource-id="login_submit_btn" or @content-desc="login_submit_btn" or @text="Login" or @text="LOGIN" or contains(@text, "OTP") or contains(@text, "Verify") or contains(@text, "Sign Up") or contains(@text, "ధృవీకరించండి") or contains(@text, "लॉगिन") or contains(@text, "உள்நுழை")]' XPath2 query
+[2026-06-14T09:32:53.365Z] [ALL] 06-14 15:02:50.435 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-007b00000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-007b00000004"}}
+[2026-06-14T09:32:53.381Z] [ALL] 06-14 15:02:50.455 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007b00000004/attribute/displayed
+[2026-06-14T09:32:53.383Z] [ALL] 06-14 15:02:50.456 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:53.389Z] [ALL] 06-14 15:02:50.463 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:53.411Z] [ALL] 06-14 15:02:50.484 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-007b00000004/click
+[2026-06-14T09:32:53.415Z] [ALL] 06-14 15:02:50.485 10725 10763 I appium  : Click command
+[2026-06-14T09:32:53.428Z] [ALL] 06-14 15:02:50.501  1486  2073 D InputDispatcher: Inject motion (10713/2000): action=0x0, time=180384883000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:53.431Z] [ALL] 06-14 15:02:50.502  1486  1665 I InputDispatcher: Delivering touch to (2112): action: 0x4, f=0x0, d=0, '1dcab54', t=1 
+[2026-06-14T09:32:53.431Z] [ALL] 06-14 15:02:50.503  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x0, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:53.431Z] [ALL] 06-14 15:02:50.503 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 0
+[2026-06-14T09:32:53.433Z] [ALL] 06-14 15:02:50.504  1486  1665 D PowerManagerService: [api] userActivityFromNative : touch displayId=0 eventTime=180384883
+[2026-06-14T09:32:53.433Z] [ALL] 06-14 15:02:50.504  2619  2619 I HoneySpace.InputConsumerFactory: checkMultiFingerGesture: returning NO_OP - gesture disabled or blocked
+[2026-06-14T09:32:53.433Z] [ALL] 06-14 15:02:50.504  2619  2619 I HoneySpace.GestureInputHandler: inputConsumers = [com.honeyspace.gesture.inputconsumer.InputConsumer$Companion$NO_OP$1@b9cdf5b]
+[2026-06-14T09:32:53.433Z] [ALL] 06-14 15:02:50.504  2619  2619 I HoneySpace.InputSession: inputConsumers = NO_OP
+[2026-06-14T09:32:53.433Z] [ALL] 06-14 15:02:50.505  2619  2619 I HoneySpace.InputSession: open
+[2026-06-14T09:32:53.438Z] [ALL] 06-14 15:02:50.508  1486  2073 D InputDispatcher: Inject motion (10713/2000): action=0x1, time=180384895000000, f=0x0, d=0 dsdx=1.000000 dtdx=0.000000
+[2026-06-14T09:32:53.438Z] [ALL] 06-14 15:02:50.508  4132  4132 I SemDvfsHyPerManager: acquire hyper - TABoost/4132@29, type = -999
+[2026-06-14T09:32:53.440Z] [ALL] 06-14 15:02:50.509  1486  1665 I InputDispatcher: Delivering touch to (11061): action: 0x1, f=0x0, d=0, 'b24f455', t=1 
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.510 11061 11061 I VRI[MainActivity]@99da679: ViewPostIme pointer 1
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.510  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -149216537 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:17 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.513  1075  1175 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 8659070  [4132 / 29]    HINT :      list : [TABoost / 1] [TIMEOUT / 1500] 
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.513  1486  1515 I GestureDetector: obtain mCurrentDownEvent. id: -149216537 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:13 com.android.server.wm.PointerEventDispatcher.onInputEvent:51 android.view.InputEventReceiver.dispatchInputEvent:369 
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.514  2619  2619 I HoneySpace.GestureInputHandler: reset
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.514  2619  2619 I HoneySpace.InputSession: close
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.514  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -517320043
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.514  1486  1515 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -517320043
+[2026-06-14T09:32:53.441Z] [ALL] 06-14 15:02:50.515 11061 11061 D SafeBankAuth: Attempting registration for email: demo@safebank.ai
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: --> POST https://ebtivogzivmvhjrdruba.supabase.co/auth/v1/signup
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: Content-Type: application/json; charset=UTF-8
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: Content-Length: 47
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: apikey: sb_publishable_xCs4KANdT3lRbiEQ9vvqMQ_A1z3-gCw
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: {"email":"demo@safebank.ai","password":"short"}
+[2026-06-14T09:32:53.449Z] [ALL] 06-14 15:02:50.523 11061 12892 I okhttp.OkHttpClient: --> END POST (47-byte body)
+[2026-06-14T09:32:53.451Z] [ALL] 06-14 15:02:50.524 10725 10763 W GestureController: Gestures took longer than expected (30ms >> 8ms), device might be in a busy state.
+[2026-06-14T09:32:53.451Z] [ALL] 06-14 15:02:50.524 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:53.451Z] [ALL] 06-14 15:02:50.525 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":null}
+[2026-06-14T09:32:53.474Z] [ALL] 06-14 15:02:50.548 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:53.477Z] [ALL] 06-14 15:02:50.548 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:53.477Z] [ALL] 06-14 15:02:50.549 10725 10763 I appium  : method: 'xpath', selector: '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]'
+[2026-06-14T09:32:53.477Z] [ALL] 06-14 15:02:50.549 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:53.477Z] [ALL] 06-14 15:02:50.550 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:53.482Z] [ALL] 06-14 15:02:50.556 10725 10729 I tomator2.server: Method exceeds compiler instruction limit: 19260 in java_cup.runtime.Symbol org.eclipse.wst.xml.xpath2.processor.internal.CUP$XPathCup$actions.CUP$XPathCup$do_action(int, java_cup.runtime.lr_parser, java.util.Stack, int)
+[2026-06-14T09:32:53.506Z] [ALL] 06-14 15:02:50.578  1486  2073 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+[2026-06-14T09:32:53.508Z] [ALL] 06-14 15:02:50.578  1486  2073 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+[2026-06-14T09:32:53.508Z] [ALL] 06-14 15:02:50.580  1486  2073 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+[2026-06-14T09:32:53.508Z] [ALL] 06-14 15:02:50.581  1486  2073 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+[2026-06-14T09:32:53.591Z] [ALL] 06-14 15:02:50.664  3066  3129 I RequestManager_FLP: onOpChanged, op=0 / packageName=com.facebook.katana
+[2026-06-14T09:32:53.606Z] [ALL] 06-14 15:02:50.680 10725 10763 I appium  : Took 0ms to retrieve 0 matches for '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]' XPath2 query
+[2026-06-14T09:32:53.611Z] [ALL] 06-14 15:02:50.682 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.utils.ElementLocationHelpers.findElement(ElementLocationHelpers.java:153)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:60)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:267)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:261)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:107)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:434)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:361)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:325)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:249)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)\n\tat io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:288)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:355)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1429)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:918)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:176)\n\tat io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:445)\n\tat io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388)\n\tat io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596)\n\tat io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571)\n\tat io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512)\n\tat io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484)\n\tat io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)\n\tat io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)\n\tat io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)\n\tat io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)\n\tat java.lang.Thread.run(Thread.java:1564)\n"}}
+[2026-06-14T09:32:53.678Z] [ALL] 06-14 15:02:50.752  1486  1651 D ActivityManager: freezing 12061 in.amazon.mShop.android.shopping
+[2026-06-14T09:32:53.690Z] [ALL] 06-14 15:02:50.760  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:53.693Z] [ALL] 06-14 15:02:50.762  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:53.693Z] [ALL] 06-14 15:02:50.763  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={10347} in 4ms
+[2026-06-14T09:32:53.693Z] [ALL] 06-14 15:02:50.763  1486  1741 D ConnectivityService: Freezing callbacks for UID 10347
+[2026-06-14T09:32:53.974Z] [ALL] 06-14 15:02:51.046  1486  3016 I ActivityManager: Changes in 10470 11 to 19, 384 to 0
+[2026-06-14T09:32:53.976Z] [ALL] 06-14 15:02:51.048  1486  1526 I ActivityManager: Changes in 10470 19 to 11, 0 to 384
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: <-- 422 https://ebtivogzivmvhjrdruba.supabase.co/auth/v1/signup (589ms)
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: date: Sun, 14 Jun 2026 09:32:54 GMT
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: content-type: application/json
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: cf-ray: a0b85493ef71af9e-MAA
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: cf-cache-status: DYNAMIC
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: server: cloudflare
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: strict-transport-security: max-age=31536000; includeSubDomains; preload
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: vary: Origin, Accept-Encoding
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: x-content-type-options: nosniff
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: sb-gateway-version: 1
+[2026-06-14T09:32:54.039Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: sb-project-ref: ebtivogzivmvhjrdruba
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: sb-request-id: 019ec57a-1877-7a59-ae8f-dd659cd6a014
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: x-envoy-attempt-count: 1
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: x-envoy-upstream-service-time: 51
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.113 11061 12892 I okhttp.OkHttpClient: x-sb-error-code: weak_password
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.114 11061 12892 I okhttp.OkHttpClient: set-cookie: __cf_bm=2XsGPASLLzqCg68o4jI9JX_AvPHevJbMjwN6etTh.kI-1781429573.747133-1.0.1.1-g6b.LKFCTeP7jYoYcVy8O60Cme9iNQMdW8q1AXOFC6h8LS9ajp_HDhmyWW6NKyMTKZnAjWMxcLEPi.yxqp7h.H4sMnzhpTI.mmqMwWvAVmBMDJOPRkaVq3lHx2cR9AKa; HttpOnly; SameSite=None; Secure; Path=/; Domain=supabase.co; Expires=Sun, 14 Jun 2026 10:02:54 GMT
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.114 11061 12892 I okhttp.OkHttpClient: alt-svc: h3=":443"; ma=86400
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.114 11061 12892 I okhttp.OkHttpClient: {"code":422,"error_code":"weak_password","msg":"Password should be at least 6 characters.","weak_password":{"reasons":["length"]}}
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.114 11061 12892 I okhttp.OkHttpClient: <-- END HTTP (130-byte body)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: Registration failed with exception
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: retrofit2.HttpException: HTTP 422 
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at retrofit2.KotlinExtensions$await$2$2.onResponse(KotlinExtensions.kt:53)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at retrofit2.OkHttpCall$1.onResponse(OkHttpCall.java:164)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+[2026-06-14T09:32:54.041Z] [ALL] 06-14 15:02:51.116 11061 11061 E SafeBankAuth: 	at java.lang.Thread.run(Thread.java:1564)
+[2026-06-14T09:32:54.045Z] [ALL] 06-14 15:02:51.119 10084 10114 I GoogleTTSServiceImpl: currentLocale = en-US
+[2026-06-14T09:32:54.055Z] [ALL] 06-14 15:02:51.122 10084 10114 I GoogleTTSServiceImpl: currentLocale = en-US
+[2026-06-14T09:32:54.062Z] [ALL] 06-14 15:02:51.123 10084 10114 I GoogleTTSServiceImpl: For default lang en-us is name en-US-language (en-us-x-iog-server)
+[2026-06-14T09:32:54.062Z] [ALL] 06-14 15:02:51.125 10084 10114 I GoogleTTSServiceImpl: currentLocale = en-US
+[2026-06-14T09:32:54.062Z] [ALL] 06-14 15:02:51.127 10084 11106 I LocalSynthesizer: Attempting to load synthesizer for voice: en-us-x-hol-seanet-embedded
+[2026-06-14T09:32:54.062Z] [ALL] 06-14 15:02:51.127 10084 11106 I LocalSynthesizer: Voice en-us-x-hol-seanet-embedded is already supported by loaded synthesizer en-us-x-multi.
+[2026-06-14T09:32:54.062Z] [ALL] 06-14 15:02:51.127 10084 11106 I ComposerWrapperImpl: Skipping initialization, can already run voice en-us-x-hol-seanet-embedded.
+[2026-06-14T09:32:54.096Z] [ALL] 06-14 15:02:51.170 10084 11106 I GoogleTTSServiceImpl: Synthesis request for locale eng-USA and name en-US-language
+[2026-06-14T09:32:54.098Z] [ALL] 06-14 15:02:51.171 10084 11106 I GoogleTTSServiceImpl: TTS dispatch: en-us-x-iog-seanet-embedded
+[2026-06-14T09:32:54.098Z] [ALL] 06-14 15:02:51.171 10084 11106 I LocalSynthesizer: Attempting to load synthesizer for voice: en-us-x-iog-seanet-embedded
+[2026-06-14T09:32:54.098Z] [ALL] 06-14 15:02:51.171 10084 11106 I LocalSynthesizer: Voice en-us-x-iog-seanet-embedded is already supported by loaded synthesizer en-us-x-multi.
+[2026-06-14T09:32:54.098Z] [ALL] 06-14 15:02:51.172 10084 11106 I ComposerWrapperImpl: Skipping initialization, can already run voice en-us-x-iog-seanet-embedded.
+[2026-06-14T09:32:54.133Z] [ALL] 06-14 15:02:51.208 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:54.133Z] [ALL] 06-14 15:02:51.208 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:54.135Z] [ALL] 06-14 15:02:51.209 10725 10763 I appium  : method: 'xpath', selector: '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]'
+[2026-06-14T09:32:54.135Z] [ALL] 06-14 15:02:51.209 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:54.138Z] [ALL] 06-14 15:02:51.210 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:54.142Z] [ALL] 06-14 15:02:51.216 10725 10729 I tomator2.server: Method exceeds compiler instruction limit: 19260 in java_cup.runtime.Symbol org.eclipse.wst.xml.xpath2.processor.internal.CUP$XPathCup$actions.CUP$XPathCup$do_action(int, java_cup.runtime.lr_parser, java.util.Stack, int)
+[2026-06-14T09:32:54.159Z] [ALL] 06-14 15:02:51.234  1101  1511 V APM_AudioPolicyManager: selectOutput new bestOutput 13 criteria 0 100 0 0 0 0 0 2 
+[2026-06-14T09:32:54.159Z] [ALL] 06-14 15:02:51.234  1101  1511 V APM_AudioPolicyManager: getOutput() stream 3 selected devices {AUDIO_DEVICE_OUT_SPEAKER, @:}, output 13
+[2026-06-14T09:32:54.159Z] [ALL] 06-14 15:02:51.234  1101  1511 V APM_AudioPolicyManager: selectOutput new bestOutput 13 criteria 0 100 0 0 0 0 0 2 
+[2026-06-14T09:32:54.159Z] [ALL] 06-14 15:02:51.234  1101  1511 V APM_AudioPolicyManager: getOutput() stream 3 selected devices {AUDIO_DEVICE_OUT_SPEAKER, @:}, output 13
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: selectOutput new bestOutput 13 criteria 0 100 0 0 0 0 0 2 
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: getOutput() stream 3 selected devices {AUDIO_DEVICE_OUT_SPEAKER, @:}, output 13
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 D NativePermissionController: checkPermission: missing 1 for 10272
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 D NativePermissionController: checkPermission: missing 3 for 10272
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 D NativePermissionController: checkPermission: missing 5 for 10272
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: getOutputForAttrInt() attributes={ Content type: AUDIO_CONTENT_TYPE_SPEECH Usage: AUDIO_USAGE_MEDIA Source: AUDIO_SOURCE_INVALID Flags: 0xa00 Tags:  } stream=AUDIO_STREAM_MUSIC session 55801 selectedDeviceId 0
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 I APM_AudioPolicyManager: selectOutputFlags: remove ULL flag for dolby
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: getOutputForAttrInt() device {AUDIO_DEVICE_OUT_SPEAKER, @:}, sampling rate 24000, format 0x1, channel mask 0x1, flags 0x8 stream AUDIO_STREAM_MUSIC
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: selectOutput new bestOutput 13 criteria 0 100 0 0 0 0 4 2 
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: selectOutput new bestOutput 21 criteria 0 100 0 0 0 1 2 0 
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: getOutputForAttrInt returns output 21 selectedDeviceIds 3
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 V APM_AudioPolicyManager: getOutputForAttr() returns output 21 requestedPortIds AUDIO_PORT_HANDLE_NONE selectedDeviceIds 3 for port ID 6421
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.235  1101  1511 I AudioFlinger: nonSecFlag 8, secFlag 0, outputFlags 8
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.236  1101  1511 D AudioFlinger: Client defaulted notificationFrames to 1365 for frameCount 4096
+[2026-06-14T09:32:54.161Z] [ALL] 06-14 15:02:51.236  1101  1511 I AF::PthrPatchRecord: creating track with enforcement level 0
+[2026-06-14T09:32:54.171Z] [ALL] 06-14 15:02:51.244  1101  1511 I AF::Track: setMixerOutConfig expectKey 202
+[2026-06-14T09:32:54.175Z] [ALL] 06-14 15:02:51.244  1101  1511 I AF::Track: setMixerOutConfig select, mixer out f 5, s 48000, thread out f 4, s 48000
+[2026-06-14T09:32:54.179Z] [ALL] 06-14 15:02:51.249 10084 11107 D AudioTrack: setVolume(1.000000, 1.000000) pid : 10084
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.253  1101  1511 I AF::Track: setMixerOutConfig expectKey 202
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 I AF::Track: setMixerOutConfig select, mixer out f 5, s 48000, thread out f 4, s 48000
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 I AudioPolicyEffectException: MySpaceHandler::checkDetachCondition media 1, ring 0, mp 0
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 I AudioPolicyEffectException: MySpace detach value 1
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 V APM_AudioPolicyManager: startOutput portId 6421
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 V APM_AudioPolicyManager: startOutput() output 21, stream 3, session 55801
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 V APM_AudioPolicyManager: setBeaconMute(1) mBeaconMuteRefCount=4 mBeaconPlayingRefCount=0
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1486  1769 D AS.SoundAliveUtils: notify dvfs state : 2, screen : true
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 V APM_AudioPolicyManager: selectOutputForMusicEffects activeOnly 1 output 21 flags 0x00000008
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 W AudioFlinger: moveEffectChain_ll: effect chain for session 0 not on source thread 0xb4000070c445bfe8
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1101  1511 V APM_AudioPolicyManager: selectOutputForMusicEffects selected output 21
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.254  1486  1486 D AudioPlayerStateMonitor: Found a new active media playback. AudioPlaybackConfiguration piid:52735 deviceIds:[] type:android.media.AudioTrack u/pid:10272/10084 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_SPEECH flags=0xA00(FLAG_DEEP_BUFFER+FLAG_MUTE_HAPTIC)  tags= bundle=null sessionId:55801 mutedState:none  FormatInfo{isSpatialized=false, channelMask=0x0, sampleRate=0}
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionService: Audio playback is changed, config=AudioPlaybackConfiguration piid:52735 deviceIds:[] type:android.media.AudioTrack u/pid:10272/10084 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_SPEECH flags=0xA00(FLAG_DEEP_BUFFER+FLAG_MUTE_HAPTIC)  tags= bundle=null sessionId:55801 mutedState:none  FormatInfo{isSpatialized=false, channelMask=0x0, sampleRate=0}, removed=false
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1101  1511 V APM_AudioPolicyManager: getNewOutputDevices selected devices {AUDIO_DEVICE_OUT_SPEAKER, @:}
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1101  1511 V APM_AudioPolicyManager: setOutputDevices caller startSource[[portId:5][io:21, deep_buffer]] device {AUDIO_DEVICE_OUT_SPEAKER, @:} delayMs 0
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionStack: updateMediaButtonSessionIfNeeded, callers=com.android.server.media.AudioPlayerStateMonitor$MessageHandler.handleMessage:19 android.os.Handler.dispatchMessage:132 
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1101  1511 V APM_AudioPolicyManager: setOutputDevices: caller startSource[[portId:5][io:21, deep_buffer]] suppressing checkDeviceMuteStrategies
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1101  1511 V APM_AudioPolicyManager: setOutputDevices caller startSource[[portId:5][io:21, deep_buffer]] changing device to {AUDIO_DEVICE_OUT_SPEAKER, @:} (prevDevice {AUDIO_DEVICE_OUT_SPEAKER, @:})
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10272
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=1000
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10405
+[2026-06-14T09:32:54.184Z] [ALL] 06-14 15:02:51.255  1486  1486 D MediaSessionStack: updateMediaButtonSessionIfNeeded, skipping uid=10284
+[2026-06-14T09:32:54.190Z] [ALL] 06-14 15:02:51.257  1486  1769 D ActivityManager: sync unfroze 10345 com.sec.android.app.soundalive for 7
+[2026-06-14T09:32:54.190Z] [ALL] 06-14 15:02:51.258  1486  1769 I ActivityManager: Changes in 10144 19 to 5, 0 to 400
+[2026-06-14T09:32:54.190Z] [ALL] 06-14 15:02:51.260  1486  1805 D BackgroundInstallControlService: Package event received: 0
+[2026-06-14T09:32:54.192Z] [ALL] 06-14 15:02:51.262 10345 10354 I SAContentProvider:  getType() : screen on is true
+[2026-06-14T09:32:54.194Z] [ALL] 06-14 15:02:51.266  1486  1486 D AudioPlayerStateMonitor: Found a new active media playback. AudioPlaybackConfiguration piid:52735 deviceIds:[] type:android.media.AudioTrack u/pid:10272/10084 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_SPEECH flags=0xA00(FLAG_DEEP_BUFFER+FLAG_MUTE_HAPTIC)  tags= bundle=null sessionId:55801 mutedState:none  FormatInfo{isSpatialized=false, channelMask=0x0, sampleRate=0}
+[2026-06-14T09:32:54.194Z] [ALL] 06-14 15:02:51.267  1486  1799 D MediaRouterService: onAudioPlayerActiveStateChanged: uid=10272, active=true, restoreUid=10272
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbDlbEffect: handle_EFFECT_CMD_SET_DEVICE(device=0x00000002)
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEffectContext: setDevice(00000002)
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEndpointParamCache: setDevice(device=0x00000002)
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbDlbEffect: handle_EFFECT_CMD_SET_DEVICE(device=0x00000002)
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEffectContext: setDevice(00000002)
+[2026-06-14T09:32:54.221Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEndpointParamCache: setDevice(device=0x00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbDlbEffect: handle_EFFECT_CMD_SET_DEVICE(device=0x00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbSpatializerEffectContext: setDevice(00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEndpointParamCache: setDevice(device=0x00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbDlbEffect: handle_EFFECT_CMD_SET_DEVICE(device=0x00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.296  1101  1460 D DlbEffectContext: setDevice(00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.297  1101  1460 D DlbEndpointParamCache: setDevice(device=0x00000002)
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.297  1101  1460 I AudioEffectExtendAction: setDevice_l empty address, empty name
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.297  1054  1509 D audio_hw_playback: deep_out-out_update_source_metadata: called
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.297  2228  3094 I TUIThread: epol_call: EPOLL_SKIP
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.298  1054  1509 D audio_hw_playback: deep_out-out_set_parameters: enter
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.298  1054  1509 D audio_hw_playback: deep_out-out_set_parameters: routing = 0x2
+[2026-06-14T09:32:54.224Z] [ALL] 06-14 15:02:51.298  1054  1509 I audio_hw_playback: deep_out-out_set_parameters: requested to change route from speaker to speaker
+[2026-06-14T09:32:54.226Z] [ALL] 06-14 15:02:51.298  1101  1460 D AudioFlinger: setCurDevice() 0x2
+[2026-06-14T09:32:54.226Z] [ALL] 06-14 15:02:51.299  1054  1509 D audio_hw_playback: deep_out-out_update_source_metadata: called
+[2026-06-14T09:32:54.226Z] [ALL] 06-14 15:02:51.300  1101  1511 V APM_AudioPolicyManager: setOutputDevices() AF::createAudioPatch returned 0 patchHandle 39652 num_sources 1 num_sinks 1
+[2026-06-14T09:32:54.226Z] [ALL] 06-14 15:02:51.301  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 10, index 10, devices 0x2, volume 0.223872, delayMs 0, muted false
+[2026-06-14T09:32:54.229Z] [ALL] 06-14 15:02:51.301  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 4, index 15, devices 0x2, volume 1.000000, delayMs 0, muted false
+[2026-06-14T09:32:54.229Z] [ALL] 06-14 15:02:51.302  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 8, index 15, devices 0x2, volume 1.000000, delayMs 0, muted false
+[2026-06-14T09:32:54.231Z] [ALL] 06-14 15:02:51.305  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 3, index 10, devices 0x2, volume 0.223872, delayMs 0, muted false
+[2026-06-14T09:32:54.231Z] [ALL] 06-14 15:02:51.305  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 5, index 15, devices 0x2, volume 0.630957, delayMs 0, muted false
+[2026-06-14T09:32:54.232Z] [ALL] 06-14 15:02:51.306  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 2, index 15, devices 0x2, volume 1.000000, delayMs 0, muted false
+[2026-06-14T09:32:54.232Z] [ALL] 06-14 15:02:51.307  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 1, index 15, devices 0x2, volume 0.794328, delayMs 0, muted false
+[2026-06-14T09:32:54.234Z] [ALL] 06-14 15:02:51.308  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 9, index 10, devices 0x2, volume 0.354813, delayMs 0, muted false
+[2026-06-14T09:32:54.234Z] [ALL] 06-14 15:02:51.309  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 0, index 8, devices 0x2, volume 1.000000, delayMs 0, muted false
+[2026-06-14T09:32:54.237Z] [ALL] 06-14 15:02:51.310  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 11, index 15, devices 0x2, volume 1.000000, delayMs 0, muted false
+[2026-06-14T09:32:54.237Z] [ALL] 06-14 15:02:51.311  1101  1511 V APM_AudioPolicyManager: checkAndSetVolume: output 21, stream 3, index 10, devices 0x2, volume 0.223872, delayMs 0, muted false
+[2026-06-14T09:32:54.238Z] [ALL] 06-14 15:02:51.314  1101  1353 D AudioFlinger: setParameters: filtered dev setParameters keyvalue l_stream_music_active=true
+[2026-06-14T09:32:54.238Z] [ALL] 06-14 15:02:51.314  1054  1509 V sec_audio_hw: sec_dev_set_parameters : l_stream_music_active=true
+[2026-06-14T09:32:54.238Z] [ALL] 06-14 15:02:51.314  1054  1509 D audio_hw_primary: device-adev_set_parameters: enter
+[2026-06-14T09:32:54.238Z] [ALL] 06-14 15:02:51.314  1054  1509 D audio_hw_primary: device-adev_set_parameters: param (l_stream_music_active=true)
+[2026-06-14T09:32:54.240Z] [ALL] 06-14 15:02:51.314  1054  1509 I AudioSAEffectOffload: effect_update_by_hal updateType:100000 OFFLOAD_EFFECT_ALL
+[2026-06-14T09:32:54.240Z] [ALL] 06-14 15:02:51.314  1054  1509 D AudioSAEffectOffload: update offload effect: VM,0,0,0,0,2,0,0
+[2026-06-14T09:32:54.240Z] [ALL] 06-14 15:02:51.314  1054  1481 I Audio_a2dpsink_hw: adev_set_parameters: kevpairs=[l_stream_music_active=true]
+[2026-06-14T09:32:54.241Z] [ALL] 06-14 15:02:51.317  1101  1511 I AudioFlinger: updateStageIndex new -2108
+[2026-06-14T09:32:54.244Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_SEEK
+[2026-06-14T09:32:54.244Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbEffectContext: setProfile(profile=0) stageIdx:-2108
+[2026-06-14T09:32:54.244Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbProfileParamCache: setProfile(profile=0)
+[2026-06-14T09:32:54.244Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbProfileParamArray: getProfileParams(profile = 0)
+[2026-06-14T09:32:54.248Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbEndpointParamCache: commitChangedParams()
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(iea = #1[3])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(rvsa = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(msce = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(mdee = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(miee = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.318  1101  1460 D DlbDap2Process: setParam(mdle = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dvme = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(rvse = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setMave(mave = 1)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(ieon = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: doCommit() Committed 10 parameters out of 15.
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dea = #1[2])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(plb = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(vmb = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dsb = #1[80])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(ded = #1[2])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(hte = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setSystemGain(vol = 0)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: Got DAP mix matrix (length=12) for processing mode 10
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: Got DAP mix matrix (length=16) for processing mode 11
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: DAP output mode set to 10 with output channel mask 0x3 and custom mix matrix.
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dom = #35[1, 0, 1, 10, 12, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 11, 16, 16384, 0, 0, 16384, 11583, 11583, 8192, 8192, 16384, 0, 0, 16384, 16384, 0, 0, 16384])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(hvm = #1[2])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(svm = #1[2])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(sdfa = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dvla = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(hlra = #1[45])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(avsb = #1[6])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(hvrc = #8[103, 32568, 11164, 5090, 0, 3, 3, 3])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(svrc = #8[103, 32568, 6698, 5090, 0, 3, 3, 3])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(vssd = #1[4])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(mvbe = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(bmde = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dvle = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dvli = #1[-256])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(vbon = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(vbm = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(beon = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(deon = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(geon = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(ngon = #1[1])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dvlo = #1[-224])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(dplp = #1[256])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: doCommit() Committed 28 parameters out of 58.
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEffectContext: handleSeek(seek operation ends, restore profile to 0)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEffectContext: handleSeek(end crossfading for seeking operation)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbCrossfadeProcess: setEnabled transitioning from FADE_TO_BYPASS state to FADE_TO_ACTIVE
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEffectContext: transformExternalGain() volume:0x394FAF fVol:0.223872 extVal:-208
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: commitChangedParams()
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: commit() Applying parameters for device 0x40000000
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(preg = #1[0])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setSystemGain(vol = 0)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbDap2Process: setParam(svol = #1[-208])
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.319  1101  1460 D DlbEndpointParamCache: doCommit() Committed 2 parameters out of 15.
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 D DlbEndpointParamCache: commit() Overriding parameters for current device 0x00000002
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 D DlbEndpointParamCache: doCommit() Committed 0 parameters out of 58.
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 I SoundBoosterEffectPlus: SB_setVolume(0xb400006e210e1c10)
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 I SoundBoosterEffectPlus: command EFFECT_CMD_SET_VOLUME left = 0.223872, right =0.223872
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 I SAG_EQ a64: SetVolumeFloat() inst_num [424238335] VolumeFloat [-12.999612] mModeFW [1] mMode [1]
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 I SAG_EQ a64: mIsVolumeTableValid yes 
+[2026-06-14T09:32:54.249Z] [ALL] 06-14 15:02:51.320  1101  1460 I SAG_EQ a64: SetVolume() VolumeIndexInt [10] 
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.320  1054  1481 D audio_hw_playback: deep_out-out_update_source_metadata: called
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.320  1054  1481 D audio_hw_playback: deep_out-out_update_source_metadata: This stream has 1 tracks
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.320  1054  1481 D audio_hw_playback: 1 Track has Usage(1), Content Type(1), Gain(0.000000)
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.321  1101  1460 D DlbCrossfadeProcess: process transitioning from FADE_TO_ACTIVE state to DAP_ACTIVE
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.321  1101  1460 I SoundAlive_Interface_a64: [ 2 ][ 48000 ]FlushBuffers()
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_playback: deep_out-out_write: transited to Ready
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 D audio_hw_primary_odm: deep_out-check_and_set_backend_mixer: no need to update backend 2 -> 2, out->backend_mode:2 
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_playback: deep_out-out_write: try to route for playback(2)
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_route: deep_out-set_route_for_playback-1: routes to device(speaker) for usage(media)
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Fade-out start
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Set ABOX RDMA6 Func as Mute
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Set ABOX RDMA7 Func as Mute
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.322  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: device(none) -> device(speaker) SIFS1_SWITCH OFF
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_hw_HalOdmProxyAdapter: proxy-is_usage_interpreter_listen: ausage = 0(media)
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_route: > audio_route_apply_path : "media-speaker"
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: Apply path: media-speaker
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_hw_proxy_route: proxy-set_route: routed media-speaker
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_route: > audio_route_apply_path : "gain-media-speaker"
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: Apply path: gain-media-speaker
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_hw_proxy_route: proxy-set_route: set gain as gain-media-speaker
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 I audio_hw_proxy_route: proxy-update_mixer_ctrls: enter
+[2026-06-14T09:32:54.251Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "SPK Active" value "1, 1"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "ABOX WDMA9 Width" value "32"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA9 Channel" value "2"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA9 Rate" value "48000"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA9 Period" value "480"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "ABOX WDMA4 Width" value "32"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA4 Channel" value "2"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA4 Rate" value "48000"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX WDMA4 Period" value "480"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "ABOX RDMA7 Width" value "32"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX RDMA7 Channel" value "2"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX RDMA7 Rate" value "48000"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX RDMA7 Period" value "480"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "ABOX SIFS0 Width" value "32"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX SIFS0 Channel" value "2"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 D audio_route: ctl : "ABOX NSRC9" value "SIFS0"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.323  1054  8821 V audio_route: ctl : Skip to set : "ABOX SIFM9" value "WDMA"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.324  1054  8821 D audio_route: ctl : "ABOX SPUS OUT7" value "SIFS1"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.324  1054  8821 D audio_route: ctl : "ABOX SIFS1" value "SPUS OUT7"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.324  1054  8821 D audio_route: ctl : "ABOX UAIF1 SPK" value "SIFS1"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.324  1054  8821 D audio_route: ctl : "ABOX NSRC4" value "UAIF1"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.324  1054  8821 V audio_route: ctl : Skip to set : "ABOX SIFM4" value "WDMA"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT0" value "SIFS0"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT1" value "SIFS0"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT2" value "SIFS0"
+[2026-06-14T09:32:54.256Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT3" value "SIFS0"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT6" value "SIFS0"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT9" value "SIFS0"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.325  1054  8821 D audio_route: ctl : "ABOX SPUS OUT11" value "SIFS0"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.326  1054  8821 D audio_route: ctl : "ABOX VDSP1" value "speaker-ampprotection-playback"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.326  1054  8821 D audio_route: ctl : "ABOX VDSP0" value "bdmixer-normal"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.326  1054  8821 D audio_route: ctl : "ABOX VDSP3" value "rdma2-sbll-vpcmout"
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.326  1054  8821 I audio_hw_proxy_route: proxy-update_mixer_ctrls: modified mixer-controls updated
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.327  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Set ABOX RDMA6 Func as Normal
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.327  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Set ABOX RDMA7 Func as Normal
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.327  1486  3016 E AppOps  : attributionTag  not declared in manifest of com.google.android.tts
+[2026-06-14T09:32:54.258Z] [ALL] 06-14 15:02:51.331  1101 30678 D NativePermissionController: checkPermission: missing 13 for 10470
+[2026-06-14T09:32:54.262Z] [ALL] 06-14 15:02:51.334  1101  3266 D NativePermissionController: checkPermission: missing 13 for 10272
+[2026-06-14T09:32:54.262Z] [ALL] 06-14 15:02:51.335  1101 30678 D NativePermissionController: checkPermission: missing 13 for 10470
+[2026-06-14T09:32:54.266Z] [ALL] 06-14 15:02:51.336  1101  3266 D NativePermissionController: checkPermission: missing 13 for 10272
+[2026-06-14T09:32:54.266Z] [ALL] 06-14 15:02:51.336  2112  2660 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=null, lastStartedUid=-1, newStartedUid=10272, newStartPackageName=com.google.android.tts, thread=Thread[RoutineHandlerThread,5,main]
+[2026-06-14T09:32:54.266Z] [ALL] 06-14 15:02:51.336  2112  2660 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : notifyChanged
+[2026-06-14T09:32:54.266Z] [ALL] 06-14 15:02:51.338  1101  3266 D NativePermissionController: checkPermission: missing 13 for 10272
+[2026-06-14T09:32:54.270Z] [ALL] 06-14 15:02:51.341  1101 17436 D NativePermissionController: checkPermission: missing 13 for 10272
+[2026-06-14T09:32:54.273Z] [ALL] 06-14 15:02:51.344  1054  8821 I audio_hw_proxy_route: proxy-enable_loop_pcmnode: SPKAMP Reference PCM Device(/dev/snd/pcmC0D118c) with SR(48000) PF(0) CC(2)                         PdSz(240) PdCnt(4) stop-thrsld(0xffffffff) is opened & started
+[2026-06-14T09:32:54.273Z] [ALL] 06-14 15:02:51.346  1054  8821 I audio_hw_proxy_route: proxy-enable_loop_pcmnode: SPK Mute PCM Device(/dev/snd/pcmC0D107p) with SR(48000) PF(0) CC(2)                     PdSz(480) PdCnt(4) stop-thrsld(0xffffffff) is opened & written (pd-sz 1920 x cnt 4)
+[2026-06-14T09:32:54.275Z] [ALL] 06-14 15:02:51.348  1101  1207 D NativePermissionController: checkPermission: missing 13 for 10470
+[2026-06-14T09:32:54.275Z] [ALL] 06-14 15:02:51.350  2112  2660 D SoundCraft.PlayingAudioConditionHandler: onPlaybackConfigChanged : lastStartedPackageName=com.google.android.tts, lastStartedUid=10272, newStartedUid=10272, newStartPackageName=com.google.android.tts, thread=Thread[RoutineHandlerThread,5,main]
+[2026-06-14T09:32:54.275Z] [ALL] 06-14 15:02:51.350  1101 17436 D NativePermissionController: checkPermission: missing 13 for 10470
+[2026-06-14T09:32:54.277Z] [ALL] 06-14 15:02:51.351 10725 10763 I appium  : Took 1ms to retrieve 1 matches for '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]' XPath2 query
+[2026-06-14T09:32:54.282Z] [ALL] 06-14 15:02:51.353 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-009500000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-009500000004"}}
+[2026-06-14T09:32:54.282Z] [ALL] 06-14 15:02:51.355  1486  1729 D WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+[2026-06-14T09:32:54.287Z] [ALL] 06-14 15:02:51.360  1486  3494 D SemWifiUsabilityStatsMonitor: onWifiUsabilityStats - seqNum 22859, isSameBssidAndFreq true
+[2026-06-14T09:32:54.287Z] [ALL] 06-14 15:02:51.360  2072  2072 I EPDG-0 [WifiProfiler]: handleWifiRssiIntent, rssi=-53
+[2026-06-14T09:32:54.287Z] [ALL] 06-14 15:02:51.361  2072  2072 I EPDG-0 [WifiProfiler]: isProfiling, hash=189204772, started=true
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.362  2072  2072 I EPDG-0 [LogMetrics]: set, type=WIFI_RSSI_LAST, value=-53
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.362  2072  2072 I EPDG-0 [WifiProfiler]: isProfiling, hash=189204772, started=true
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.363  2072  2072 I EPDG-0 [WifiProfiler]: Rssi : -53 highrange : -75 lowrange : -85 mIsRssiInHystersis : false
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.363  2072  2072 I EPDG-0 [WifiProfiler]: Rssi : -53 highrange : -75 lowrange : -85 mIsRssiInHystersis : false
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.363  2072  2072 I EPDG-0 [Subscription]: isEpdgAvailable, IwlanPsState=2/2
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.363  2072  2072 I EPDG-0 [WifiProfiler]: getHandoverThresholdMet: value is: false
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.364   747   747 D io_stats: !@   8,0 r 79753912 1573046149 w 12672483 207614868 d 4211564 258783832 f 0 1106553 iot 28685612 0 th 0 0 0 pt 0 inp 0 0 180385.753
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.364   747   747 D io_stats: !@ Read_top(KB): stagram.android(11887) 1324 system_server(1486) 64 c.android.sdhms(4132) 20
+[2026-06-14T09:32:54.291Z] [ALL] 06-14 15:02:51.364   747   747 D io_stats: !@ Write_top(KB): f2fs_ckpt-254:5(789) 252 system_server(1486) 112 stagram.android(11887) 64
+[2026-06-14T09:32:54.297Z] [ALL] 06-14 15:02:51.372 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-009500000004/attribute/displayed
+[2026-06-14T09:32:54.298Z] [ALL] 06-14 15:02:51.372 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:54.323Z] [ALL] 06-14 15:02:51.390  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: device(none) -> device(speaker) SIFS1_SWITCH ON
+[2026-06-14T09:32:54.323Z] [ALL] 06-14 15:02:51.391  1054  8821 I audio_hw_proxy2: proxy-proxy_set_route: Fade-out stop
+[2026-06-14T09:32:54.323Z] [ALL] 06-14 15:02:51.391  1054  8821 I audio_hw_proxy_usb: proxy_usb_out_pick_best_pcmconfig: Selected config rate[48000] format[3] channels[2]
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.392  1054  8821 I audio_hw_proxy2: deep_out-proxy_open_playback_stream: The opened PCM Device is /dev/snd/pcmC0D0p with Sampling_Rate(48000) PCM_Format(3)  PCM_start-threshold(960) PCM_stop-threshold(3840), use_mmap(true), FD(34)
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.392  1054  8821 I audio_hw_playback: deep_out-out_write: transited to Idle
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.392  1054  8821 I audio_hw_playback: deep_out-out_write: transited to Playing
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.392 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.392  1054  8821 I audio_hw_proxy2: proxy_get_presen_position: cannot get pcm_htimestamp but pcm is ready
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I AudioMixer: create resampler src 24000, 1, dst 48000, 1, f 0x5, q 8
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1054  1481 D audio_hw_playback: deep_out-out_update_source_metadata: called
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1054  1481 D audio_hw_playback: deep_out-out_update_source_metadata: This stream has 1 tracks
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1054  1481 D audio_hw_playback: 1 Track has Usage(1), Content Type(1), Gain(1.000000)
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1486  3016 I AS.AudioService: AudioHardening background playback would be muted for com.google.android.tts (10272), level: full
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I SoundAlive_SRC384 arch64: SoundAlive_SRC384() ID = 2920 GID = 2921
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I SoundAlive_SRC384 arch64: SoundAlive_SRC384: Instance 2920 Init(outFs 7, InFs 7, chnum 0, outBW 0, inBW 0)
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I Samsung_SoundAlive_SRC_v330 arch64: SRC384 version AE_VER_Resampler_ver330_a64_2025-05-21
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 D SoundAliveResampler: [SoundAliveResampler] Init+++
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I SoundAlive_SRC384 arch64: SoundAlive_SRC384: Instance 2920 Init(outFs 8, InFs 5, chnum 2, outBW 3, inBW 3)
+[2026-06-14T09:32:54.326Z] [ALL] 06-14 15:02:51.393  1101  1460 I Samsung_SoundAlive_SRC_v330 arch64: SRC384 version AE_VER_Resampler_ver330_a64_2025-05-21
+[2026-06-14T09:32:54.330Z] [ALL] 06-14 15:02:51.403  1054  8821 I audio_hw_proxy2: proxy_get_presen_position: cannot get pcm_htimestamp but pcm is ready
+[2026-06-14T09:32:54.338Z] [ALL] 06-14 15:02:51.412 10725 10763 I appium  : channel read: POST /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element
+[2026-06-14T09:32:54.340Z] [ALL] 06-14 15:02:51.412 10725 10763 I appium  : FindElement command
+[2026-06-14T09:32:54.340Z] [ALL] 06-14 15:02:51.413 10725 10763 I appium  : method: 'xpath', selector: '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]'
+[2026-06-14T09:32:54.340Z] [ALL] 06-14 15:02:51.413 10725 10763 I appium  : Waiting up to 10000ms for the device to idle
+[2026-06-14T09:32:54.340Z] [ALL] 06-14 15:02:51.414 10725 10763 I appium  : The following attributes will be included to the page source: [text]
+[2026-06-14T09:32:54.346Z] [ALL] 06-14 15:02:51.421 10725 10729 I tomator2.server: Method exceeds compiler instruction limit: 19260 in java_cup.runtime.Symbol org.eclipse.wst.xml.xpath2.processor.internal.CUP$XPathCup$actions.CUP$XPathCup$do_action(int, java_cup.runtime.lr_parser, java.util.Stack, int)
+[2026-06-14T09:32:54.403Z] [ALL] 06-14 15:02:51.475  1101  1460 D AudioFlinger: mixer(0xb4000070c257d520) throttle end: throttle time(25)
+[2026-06-14T09:32:54.423Z] [ALL] 06-14 15:02:51.496 10725 10763 I appium  : Took 0ms to retrieve 1 matches for '//*[@text[contains(.,"Invalid") or contains(.,"empty") or contains(.,"Required") or contains(.,"error") or contains(.,"Error") or contains(.,"Incorrect") or contains(.,"Please") or contains(.,"enter") or contains(.,"Failed") or contains(.,"failed") or contains(.,"Sync")]]' XPath2 query
+[2026-06-14T09:32:54.426Z] [ALL] 06-14 15:02:51.498 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":{"ELEMENT":"00000000-0000-0138-0000-009500000004","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0138-0000-009500000004"}}
+[2026-06-14T09:32:54.449Z] [ALL] 06-14 15:02:51.519 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-009500000004/attribute/displayed
+[2026-06-14T09:32:54.457Z] [ALL] 06-14 15:02:51.519 10725 10763 I appium  : GetElementAttribute command
+[2026-06-14T09:32:54.472Z] [ALL] 06-14 15:02:51.530 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"true"}
+[2026-06-14T09:32:54.492Z] [ALL] 06-14 15:02:51.556 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/element/00000000-0000-0138-0000-009500000004/text
+[2026-06-14T09:32:54.501Z] [ALL] 06-14 15:02:51.558 10725 10763 I appium  : GetText command
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"Supabase Registration Error: HTTP 422 "}
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: Failed to get service from broker. 
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3388)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Parcel.createException(Parcel.java:3372)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3355)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Parcel.readException(Parcel.java:3297)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at bjwe.a(:com.google.android.gms@262031035@26.20.31 (260400-919905943):36)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at bjua.z(:com.google.android.gms@262031035@26.20.31 (260400-919905943):143)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at bjaf.run(:com.google.android.gms@262031035@26.20.31 (260400-919905943):42)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Handler.handleCallback(Handler.java:1070)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at dbor.mL(:com.google.android.gms@262031035@26.20.31 (260400-919905943):1)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at dbor.dispatchMessage(:com.google.android.gms@262031035@26.20.31 (260400-919905943):5)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Looper.dispatchMessage(Looper.java:358)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Looper.loopOnce(Looper.java:288)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.Looper.loop(Looper.java:392)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.570 12668 12752 E GoogleApiManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+[2026-06-14T09:32:54.514Z] [ALL] 06-14 15:02:51.571 12668 12752 W GoogleApiManager: Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+[2026-06-14T09:32:54.542Z] [ALL] 06-14 15:02:51.613 10725 10763 I appium  : channel read: GET /session/e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272/screenshot
+[2026-06-14T09:32:54.542Z] [ALL] 06-14 15:02:51.614 10725 10763 I appium  : CaptureScreenshot command
+[2026-06-14T09:32:54.544Z] [ALL] 06-14 15:02:51.615  1486  1651 D ActivityManager: freezing 12668 com.amazon.mp3
+[2026-06-14T09:32:54.556Z] [ALL] 06-14 15:02:51.627  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+[2026-06-14T09:32:54.557Z] [ALL] 06-14 15:02:51.630  1486  1741 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+[2026-06-14T09:32:54.557Z] [ALL] 06-14 15:02:51.630  1486  1741 D InetDiagMessage: Destroyed live tcp sockets for uids={10367} in 5ms
+[2026-06-14T09:32:54.557Z] [ALL] 06-14 15:02:51.630  1486  1741 D ConnectivityService: Freezing callbacks for UID 10367
+[2026-06-14T09:32:54.557Z] [ALL] 06-14 15:02:51.632  1149  1317 D SurfaceFlinger: setDesiredMode 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:54.559Z] [ALL] 06-14 15:02:51.634  1149  1149 I SurfaceFlinger: com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 voted ExplicitCategory with category: HighHint
+[2026-06-14T09:32:54.559Z] [ALL] 06-14 15:02:51.634  1149  1149 I SurfaceFlinger: IdleFps - choose 60.00 Hz
+[2026-06-14T09:32:54.561Z] [ALL] 06-14 15:02:51.635  1149  1149 D SurfaceFlinger: initiateModeChange 4633128672291736000 {mode={fps=60.00 Hz, modePtr={id=1, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+[2026-06-14T09:32:54.561Z] [ALL] 06-14 15:02:51.635  1149  1149 I SurfaceFlinger: [4633128672291736000] ActiveConfigToHWC, ID : 4
+[2026-06-14T09:32:54.561Z] [ALL] 06-14 15:02:51.636  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 120
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.639  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 120
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.640  1062 15192 D display : setActiveConfigWithConstraints:: PrimaryDisplay config(4)
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.640  1062 15192 I display : Current VRR MODE is 3
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.640  1062 15192 I display : setActiveConfigWithConstraints:: HFR match - config: 5, base: 4, try: 0
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.640  1062 15192 I display : setActiveConfigWithConstraints::update 1080x2340@60phs
+[2026-06-14T09:32:54.564Z] [ALL] 06-14 15:02:51.640  1062 15192 I display : commit modeset : 1080x2340@60phs
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.656  1062 15192 W display : deliverWinConfigData:: commit modeset time (16 ms)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : [compareVsyncPeriod] set the lowest(mode:0) vsync 166 of display(0)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set m2mMPP capacity(8) for fps(60)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : getFpsForPerformance, performance table found using table(key:60, cpu:255)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity config for fps(60) : cpuIDs : 255
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 0
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 1
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 2
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 3
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 4
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 5
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 6
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set Affinity CPU ID : 7
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : Set affinity HWC : 1062
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1149  1149 D SurfaceFlinger: GPIS:: requestGpisForSFSluggish
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : CPU set : Cluster(0), min_clock(0)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1149  1149 I SurfaceFlinger: finalizeDisplayModeChange 4633128672291736000
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : CPU set : Cluster(1), min_clock(0)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1062  1159 I display : CPU set : Cluster(2), min_clock(0)
+[2026-06-14T09:32:54.588Z] [ALL] 06-14 15:02:51.657  1149  1280 I SurfaceFlinger: Current= 120, Period= 60, hwcPeriod= 60
+[2026-06-14T09:32:54.612Z] [ALL] 06-14 15:02:51.687  3653  3653 I wpa_supplicant: Heartbeat 5808
+[2026-06-14T09:32:54.672Z] [ALL] 06-14 15:02:51.746 12903 12903 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.747 12903 12903 W libbinder.BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.748 12903 12903 W libbinder.BackendUnifiedServiceManager: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: edmnativehelper
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.748  1486  2866 I EDMNativeHelperService: isScreenCaptureEnabled
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.749  1486  2866 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.749 12903 12903 W libbinder.ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+[2026-06-14T09:32:54.674Z] [ALL] 06-14 15:02:51.749 12903 12903 I SurfaceComposerClient: captureDisplay:Display-4633128672291736000
+[2026-06-14T09:32:54.677Z] [ALL] 06-14 15:02:51.752  1149  2513 I SurfaceFlinger: Capture layer list: 	 com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622(preserveDisplayColors:0)
+[2026-06-14T09:32:54.677Z] [ALL] 06-14 15:02:51.752  1149  2513 I SurfaceFlinger: Capture layer list: 	 StatusBar$_2112#94(preserveDisplayColors:0)
+[2026-06-14T09:32:54.677Z] [ALL] 06-14 15:02:51.752  1149  2513 I SurfaceFlinger: Capture layer list: 	 com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_2619#103972(preserveDisplayColors:0)
+[2026-06-14T09:32:54.677Z] [ALL] 06-14 15:02:51.752  1149  2513 I SurfaceFlinger: Capture layer list: 	 NavigationBar0$_2112#90(preserveDisplayColors:0)
+[2026-06-14T09:32:54.682Z] [ALL] 06-14 15:02:51.754  1149  1201 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1348, Rendering layer ScreenCaptureFillLayer at index 0
+[2026-06-14T09:32:54.682Z] [ALL] 06-14 15:02:51.754  1149  1201 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1348, Rendering layer com.safebank.ai/com.safebank.ai.MainActivity$_11061#104622 at index 1
+[2026-06-14T09:32:54.682Z] [ALL] 06-14 15:02:51.754  1149  1201 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1348, Rendering layer StatusBar$_2112#94 at index 2
+[2026-06-14T09:32:54.682Z] [ALL] 06-14 15:02:51.754  1149  1201 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1348, Rendering layer com.sec.android.app.launcher/com.samsung.app.honeyspace.edge.edgepanel.app.CocktailBarService$_2619#103972 at index 3
+[2026-06-14T09:32:54.682Z] [ALL] 06-14 15:02:51.754  1149  1201 D SurfaceFlinger: [SEC_SF_EFFECTS] drawLayersInternal,1348, Rendering layer NavigationBar0$_2112#90 at index 4
+[2026-06-14T09:32:54.691Z] [ALL] 06-14 15:02:51.765 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.691Z] [ALL] 06-14 15:02:51.765 10345 10345 I AudioManager: getParameters keys = g_effect_active_sound_info=track
+[2026-06-14T09:32:54.693Z] [ALL] 06-14 15:02:51.766  1101 17436 I SecAudioParamFlinger: getActiveSoundInfo 1, trackFormat 1, outputFormat 4
+[2026-06-14T09:32:54.693Z] [ALL] 06-14 15:02:51.767 10345 10345 I AudioManagerWrapper: getActiveSoundFormat() : active sound format is 1
+[2026-06-14T09:32:54.693Z] [ALL] 06-14 15:02:51.767 10345 10345 I RestrictModeUtil: isOwnerMode() : user id is 0
+[2026-06-14T09:32:54.693Z] [ALL] 06-14 15:02:51.768 10345 10345 I RestrictModeUtil: isDexMode() : DeX mode is off
+[2026-06-14T09:32:54.693Z] [ALL] 06-14 15:02:51.768 10345 10345 I RestrictModeUtil: isAdaptSoundTestMode() : adaptsound test mode is false
+[2026-06-14T09:32:54.695Z] [ALL] 06-14 15:02:51.768 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.695Z] [ALL] 06-14 15:02:51.768 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+[2026-06-14T09:32:54.695Z] [ALL] 06-14 15:02:51.769 10345 10345 I EffectManager: isSpatialAudioActive() : mode is off (0)
+[2026-06-14T09:32:54.695Z] [ALL] 06-14 15:02:51.769 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770  1101 17436 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770  1101 17436 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770  1101 17436 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770  1101 17436 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770  1101 17436 D DlbEffectContext: getParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770 10345 10345 I DolbyAtmosWrapper: getProfile() : for dolby atmos, 0
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.770 10345 10345 I AudioManager: setParameters keyValuePairs = g_effect_dolby_enable=1;g_effect_dolby_profile=0
+[2026-06-14T09:32:54.697Z] [ALL] 06-14 15:02:51.771  1101 17436 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_enable=1;g_effect_dolby_profile=0
+[2026-06-14T09:32:54.700Z] [ALL] 06-14 15:02:51.772  1101 17436 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_ENABLE
+[2026-06-14T09:32:54.700Z] [ALL] 06-14 15:02:51.773  1054  1481 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.700Z] [ALL] 06-14 15:02:51.773  1054  1481 D AudioSAEffectOffload: update offload effect: DLB,1,2,0
+[2026-06-14T09:32:54.700Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.700Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774  1101 17436 I AudioEffectExtendAction: Non Spatialized stage -2113, disable content proc
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setContentProcEnabled(enabled=0)
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.774 10345 10345 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos, true
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.775  1101 17436 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_PROFILE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.775  1054  1481 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.775  1054  1481 D AudioSAEffectOffload: update offload effect: DLB,1,2,0
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.775  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.703Z] [ALL] 06-14 15:02:51.777  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.777  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.777  1101 17436 D DlbEffectContext: setProfile(profile=0) stageIdx:-2113
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.777  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.777  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.778 10345 10345 I DolbyAtmosWrapper: setProfile() : for dolby atmos, 0
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.778 10345 10345 I EffectManager: setEffectDolbyAtmos() : enable is true, mode is auto (0)
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.778 10345 10345 I EffectManager: setEffectDolbyAtmos() : concert hall will be off
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.778 12903 12913 I screencap: [HIDL_FETCH_IMapper] android.hardware.graphics.mapper@4.0: Loaded Mapper successfully.
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.780  1101 17436 I SoundAlive_Interface_a64: [ 1 ][ 192000 ]Set_User_CH() : 0
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.780  1101 17436 I SoundAlive_Interface_a64: [ 2 ][ 48000 ]Set_User_CH() : 0
+[2026-06-14T09:32:54.706Z] [ALL] 06-14 15:02:51.780  1101 17436 I SoundAlive_Interface_a64: [ 3 ][ 48000 ]Set_User_CH() : 0
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I SoundAliveWrapper: setStrength() : type is concert hall (3), strength is 0
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.780 10345 10345 I AudioManager: setParameters keyValuePairs = g_effect_game_dolby_enable=1
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.781  1101 17436 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_game_dolby_enable=1
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.782  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.782  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.707Z] [ALL] 06-14 15:02:51.782 10345 10345 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos for gaming, true
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783 10345 10345 I DolbyAtmosWrapper: setProfile() : for dolby atmos for gaming, 4
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783 10345 10345 I RestrictModeUtil: isOwnerMode() : user id is 0
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783 10345 10345 I RestrictModeUtil: isDexMode() : DeX mode is off
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.783 10345 10345 I RestrictModeUtil: isAdaptSoundTestMode() : adaptsound test mode is false
+[2026-06-14T09:32:54.709Z] [ALL] 06-14 15:02:51.784  1054  1481 D AudioSAEffectOffload: update offload effect: SA,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4,1,1,0,0,0,0,0
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.784  1101 17436 I SoundAlive_Interface_a64: [ 1 ][ 192000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.784  1101 17436 I SoundAlive_Interface_a64: [ 2 ][ 48000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.784  1101 17436 I SoundAlive_Interface_a64: [ 3 ][ 48000 ]Set_USER_EQ() : 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I SoundAliveWrapper: setEqualizer() : preset is balanced (0), levels for 9 bands are 0 0 0 0 0 0 0 0 0 
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: isSupportUHQUpscalerOnCurrentAudioPath() : path is speaker (0), device type is builtin speaker (2)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: updateUHQUpscalerState() : uhq upscaler is not available on current audio path
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: updateUHQUpscalerState() : audio path is speaker, so skip writing mode to settings db
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: isSupportVolumeNormalizationOnCurrentAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: setEffectVolumeNormalization() : mode is 0, current profile is 0
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I EffectManager: isSpatialAudioActive() : mode is off (0)
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.785 10345 10345 I AudioManager: setParameters keyValuePairs = g_effect_dolby_volume_leveler=-1
+[2026-06-14T09:32:54.711Z] [ALL] 06-14 15:02:51.786  1101 17436 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_volume_leveler=-1
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.786  1101 17436 I SecAudioParamPolicy: g_effect_dolby_volume_leveler: 0 
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.787 10345 10345 I AudioManager: setParameters keyValuePairs = g_effect_dolby_enable=1;g_effect_dolby_profile=0
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.787  1101 17436 V APM_AudioPolicyManager: setAudioPolicyConfig: g_effect_dolby_enable=1;g_effect_dolby_profile=0
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.787  1101 17436 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_ENABLE
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1054  1481 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1054  1481 D AudioSAEffectOffload: update offload effect: DLB,1,2,0
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1101 17436 I AudioEffectExtendAction: Non Spatialized stage -2113, disable content proc
+[2026-06-14T09:32:54.713Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setContentProcEnabled(enabled=0)
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_ENABLE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.788 10345 10345 I DolbyAtmosWrapper: setProfileEnabled() : for dolby atmos, true
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.788  1101 17436 D DlbSpatializerEffectContext: setParam() received parameter SPATIALIZER_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1054  1481 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1054  1481 D AudioSAEffectOffload: update offload effect: DLB,1,2,0
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setProfile(profile=0) stageIdx:-2113
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789  1101 17436 D DlbEffectContext: setParam() received parameter EFFECT_PARAM_PROFILE
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789 10345 10345 I DolbyAtmosWrapper: setProfile() : for dolby atmos, 0
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789 10345 10345 I LocalBroadcastManager: sendLocalBroadcast() : action is 1
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789 10345 10345 I LocalBroadcastManager: sendLocalBroadcast() : action is 2
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.789 10345 10345 I AudioManagerWrapper: getCurrentMediaVolume() : current media volume is 10
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.790 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.790 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.715Z] [ALL] 06-14 15:02:51.790 10345 10345 I EffectManager: isSupportDolbyAtmosOnThisAudioPath() : speaker type is stereo
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I EffectManager: isSupportVoiceBoostOnCurrentAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I AudioPathManager: loadAudioPath() : loaded audio path is speaker (0)
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I EffectManager: isSupportVolumeNormalizationOnCurrentAudioPath() : path is speaker (0)
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I DVFSHelper: isNecessaryToBoostCPU() : isDolbyOn? true, isUHQUpscalerOn? false, isVoiceBoostOn? false, isVolumeNormalizationOn? false
+[2026-06-14T09:32:54.716Z] [ALL] 06-14 15:02:51.790 10345 10345 I SemDvfsHyPerManager: acquire hyper - class com.sec.android.app.soundalive.SoundAliveApplication/10345@0, type = -999
+[2026-06-14T09:32:54.717Z] [ALL] 06-14 15:02:51.790 10345 10345 I DVFSHelper: acquireBoostingCPU() : cpu is boosting by hint 10004
+[2026-06-14T09:32:54.717Z] [ALL] 06-14 15:02:51.791  1075  1175 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 53514685  [10345 / 0]    HINT : SOUNDALIVE_DVFS_20_PERCENT    list : [TIMEOUT / 30000] 
+[2026-06-14T09:32:54.915Z] [ALL] 06-14 15:02:51.989 10725 10763 I appium  : AppiumResponse: {"sessionId":"e97b7abb-6aa8-4e9c-b8b4-b3047c3ed272","value":"iVBORw0KGgoAAAANSUhEUgAABDgAAAkkCAYAAAD508+vAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7OHOkAACAASURBVHic7N11fBtH2gfw30oyQxy0w8zMzEy9NuXmSmmbclOGuzZXSN9y2jTl9oqXtmmatAGHwWFmdNiJE4fMsWyL9v1DWlmwQkvWyv59P5dctDA7GkE1z848I5SUiiKIiIiIiIiIiMKYKtQVICIiIiI…

@@ -8,19 +8,19 @@ class ReportPage extends BasePage {
 
   // Locators
   get reportNameInput() {
-    return '//*[@resource-id="report_name_input"] | ~report_name_input';
+    return 'android=new UiSelector().className("android.widget.EditText").instance(0)';
   }
 
   get reportTargetInput() {
-    return '//*[@resource-id="report_target_input"] | ~report_target_input';
+    return 'android=new UiSelector().className("android.widget.EditText").instance(1)';
   }
 
   get reportDetailsInput() {
-    return '//*[@resource-id="report_details_input"] | ~report_details_input';
+    return 'android=new UiSelector().className("android.widget.EditText").instance(2)';
   }
 
   get reportSubmitBtn() {
-    return '//*[@resource-id="report_submit_btn"] | ~report_submit_btn';
+    return '//*[@resource-id="report_submit_btn" or @content-desc="report_submit_btn" or contains(@text, "Submit") or contains(@text, "సమర్పించండి") or contains(@text, "सबमिट") or contains(@text, "புகார்")]';
   }
 
   // Actions
@@ -29,16 +29,24 @@ class ReportPage extends BasePage {
     await this.setValue(this.reportNameInput, reporterName);
     await this.setValue(this.reportTargetInput, targetNumber);
     await this.setValue(this.reportDetailsInput, detailsText);
+    try {
+      if (await this.driver.isKeyboardShown()) {
+        await this.driver.hideKeyboard();
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    } catch (err) {}
     await this.click(this.reportSubmitBtn);
   }
 
   async isReportSubmittedSuccessfully() {
     logger.info('Verifying if report was successfully logged');
-    // Compose displays a snackbar, toast, message, or clears the form
-    // We will verify the inputs have been cleared or a confirmation popup appears
     try {
-      const confirmationText = '//*[@text[contains(.,"Successfully") or contains(.,"logged") or contains(.,"submitted") or contains(.,"Reported")]]';
-      return await this.isDisplayed(confirmationText, 4000);
+      const confirmationText = '//*[@text[contains(.,"Successfully") or contains(.,"logged") or contains(.,"submitted") or contains(.,"Reported") or contains(.,"Success") or contains(.,"విజయం") or contains(.,"सफलता") or contains(.,"வெற்றி")]]';
+      const els = await this.driver.$$(confirmationText);
+      if (els.length > 0) {
+        return await els[0].isDisplayed();
+      }
+      return false;
     } catch (err) {
       return false;
     }

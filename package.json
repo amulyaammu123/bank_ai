@@ -8,7 +8,13 @@
     "test:auth": "mocha tests/auth.test.js --timeout 180000 --reporter mochawesome",
     "test:validation": "mocha tests/formValidation.test.js --timeout 180000 --reporter mochawesome",
     "test:gestures": "mocha tests/gestures.test.js --timeout 180000 --reporter mochawesome",
-    "test:e2e": "mocha tests/e2eFlow.test.js --timeout 180000 --reporter mochawesome"
+    "test:e2e": "mocha tests/e2eFlow.test.js --timeout 180000 --reporter mochawesome",
+    "test:call": "mocha tests/call.test.js --timeout 180000 --reporter mochawesome",
+    "test:sms": "mocha tests/sms.test.js --timeout 180000 --reporter mochawesome",
+    "test:chatbot": "mocha tests/chatbot.test.js --timeout 180000 --reporter mochawesome",
+    "test:sos": "mocha tests/sos.test.js --timeout 180000 --reporter mochawesome",
+    "test:settings": "mocha tests/settings.test.js --timeout 180000 --reporter mochawesome",
+    "test:admin": "mocha tests/admin.test.js --timeout 180000 --reporter mochawesome"
   },
   "dependencies": {
     "chai": "^4.3.10",

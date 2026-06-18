@@ -139,10 +139,13 @@ class Gestures {
     
     while (swipes < maxSwipes) {
       try {
-        const element = await driver.$(targetSelector);
-        if (await element.isDisplayed()) {
-          logger.info(`Element ${targetSelector} found and displayed after ${swipes} swipes`);
-          return element;
+        const elements = await driver.$$(targetSelector);
+        if (elements.length > 0) {
+          const displayed = await elements[0].isDisplayed();
+          if (displayed) {
+            logger.info(`Element ${targetSelector} found and displayed after ${swipes} swipes`);
+            return elements[0];
+          }
         }
       } catch (err) {
         // Continue scrolling

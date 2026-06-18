@@ -8,22 +8,27 @@ class SmsPage extends BasePage {
 
   // Locators
   get smsInputField() {
-    return '//*[@resource-id="sms_input_field"] | ~sms_input_field';
+    return '//*[@resource-id="sms_input_field" or @content-desc="sms_input_field" or @class="android.widget.EditText"]';
   }
 
   get scanSubmitBtn() {
-    return '//*[@resource-id="scan_submit_btn"] | ~scan_submit_btn';
+    return '//*[@resource-id="scan_submit_btn" or @content-desc="scan_submit_btn" or @text="Scan Message" or @text="Scan" or contains(@text, "Scan")]';
   }
 
   get resultSection() {
-    // Looks for text containing detection parameters like Risk or Score or Fraud
-    return '//*[@text[contains(.,"Risk") or contains(.,"Score") or contains(.,"Spam") or contains(.,"Safe")]]';
+    return '//*[@resource-id="sms_result_text" or @content-desc="sms_result_text"]';
   }
 
   // Actions
   async scanSmsText(text) {
     logger.info(`Scanning SMS text: "${text}"`);
     await this.setValue(this.smsInputField, text);
+    try {
+      if (await this.driver.isKeyboardShown()) {
+        await this.driver.hideKeyboard();
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    } catch (err) {}
     await this.click(this.scanSubmitBtn);
   }
 

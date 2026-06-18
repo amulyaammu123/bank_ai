@@ -21,6 +21,25 @@ class BasePage {
   async setValue(selector, value) {
     logger.info(`Setting value on ${selector}`);
     const el = await Helpers.waitForElement(this.driver, selector);
+    try {
+      await el.clearValue();
+    } catch (err) {}
+    
+    // Fallback for Android Compose UI where clearValue() is often ignored.
+    // If there is any existing text, click and manually delete all characters first.
+    try {
+      const currentText = await el.getText();
+      if (currentText && currentText.length > 0) {
+        await el.click();
+        // Send backspace keys for the length of current text plus some buffer
+        for (let i = 0; i < currentText.length + 10; i++) {
+          await this.driver.pressKeyCode(67); // KEYCODE_DEL
+        }
+      }
+    } catch (err) {
+      logger.warn('Failed manual clear fallback:', err.message);
+    }
+    
     await el.setValue(value);
   }
 
@@ -51,7 +70,16 @@ class BasePage {
    */
   async pressBack() {
     logger.info('Pressing Android hardware back button');
-    await this.driver.back();
+    try {
+      if (typeof this.driver.pressKeyCode === 'function') {
+        await this.driver.pressKeyCode(4);
+      } else {
+        await this.driver.back();
+      }
+    } catch (err) {
+      logger.warn('Failed to pressKeyCode(4), falling back to driver.back():', err.message);
+      await this.driver.back();
+    }
   }
 
   /**

@@ -1,6 +1,7 @@
 package com.safebank.ai.ui
 
 import androidx.compose.animation.*
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -347,7 +348,7 @@ fun ProfileScreen(
             }
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(12.dp))
 
         Button(
             onClick = { viewModel.logout() },
@@ -490,7 +491,7 @@ fun LoginScreen(
                         
                         TextButton(
                             onClick = { viewModel.toggleLoginWithOtp() },
-                            modifier = Modifier.align(Alignment.End),
+                            modifier = Modifier.align(Alignment.End).testTag("change_email_btn"),
                             enabled = !state.authLoading
                         ) {
                             Text(Translations.translate("changeEmail", state.language), color = primaryColor, fontSize = (12 * state.textScale).sp)
@@ -556,28 +557,15 @@ fun LoginScreen(
                 if (!state.isSigningUp) {
                     Row(
                         modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
+                        horizontalArrangement = Arrangement.End,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         TextButton(
-                            onClick = { viewModel.toggleLoginWithOtp() },
-                            enabled = !state.authLoading
+                            onClick = { viewModel.resetPassword() },
+                            enabled = !state.authLoading,
+                            modifier = Modifier.testTag("forgot_password_btn")
                         ) {
-                            val toggleLabel = if (state.loginWithOtp) {
-                                Translations.translate("usePassword", state.language)
-                            } else {
-                                Translations.translate("useOtp", state.language)
-                            }
-                            Text(toggleLabel, color = primaryColor, fontSize = (12 * state.textScale).sp)
-                        }
-
-                        if (!state.loginWithOtp) {
-                            TextButton(
-                                onClick = { viewModel.resetPassword() },
-                                enabled = !state.authLoading
-                            ) {
-                                Text(Translations.translate("forgotPassword", state.language), color = primaryColor, fontSize = (12 * state.textScale).sp)
-                            }
+                            Text(Translations.translate("forgotPassword", state.language), color = primaryColor, fontSize = (12 * state.textScale).sp)
                         }
                     }
                 }
@@ -585,7 +573,7 @@ fun LoginScreen(
                 TextButton(
                     onClick = { viewModel.toggleSignUpMode() },
                     enabled = !state.authLoading,
-                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                    modifier = Modifier.align(Alignment.CenterHorizontally).testTag("signup_toggle_btn")
                 ) {
                     Text(
                         text = if (state.isSigningUp) "Already have an account? Login" else "New here? Sign Up",
@@ -594,22 +582,7 @@ fun LoginScreen(
                     )
                 }
 
-                HorizontalDivider(color = if (isHighContrast) Color.Yellow else Color(0xFFE2E8F0))
 
-                Button(
-                    onClick = { viewModel.loginAsDemo() },
-                    colors = ButtonDefaults.buttonColors(containerColor = if (isHighContrast) Color.Yellow else Color(0xFF78909C)),
-                    modifier = Modifier.fillMaxWidth().height(48.dp).testTag("demo_guest_login_btn"),
-                    shape = RoundedCornerShape(12.dp),
-                    enabled = !state.authLoading
-                ) {
-                    Text(
-                        text = "Try Offline Demo Mode",
-                        fontWeight = FontWeight.Bold,
-                        color = if (isHighContrast) Color.Black else Color.White,
-                        fontSize = (14 * state.textScale).sp
-                    )
-                }
             }
         }
         
@@ -1084,7 +1057,8 @@ fun DashboardScreen(
                 colors = CardDefaults.cardColors(containerColor = if (isHighContrast) Color(0xFF1E1E1E) else Color(0xFFE8F5E9)),
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clickable { viewModel.navigateTo("settings") },
+                    .clickable { viewModel.navigateTo("settings") }
+                    .testTag("settings_shortcut_card"),
                 shape = RoundedCornerShape(8.dp),
                 border = if (isHighContrast) BorderStroke(1.dp, Color.Yellow) else null
             ) {
@@ -1159,7 +1133,7 @@ fun DashboardScreen(
                         Button(
                             onClick = { viewModel.navigateTo("admin") },
                             colors = ButtonDefaults.buttonColors(containerColor = if (isHighContrast) Color(0xFF555555) else Color(0xFF546E7A)),
-                            modifier = Modifier.weight(1f)
+                            modifier = Modifier.weight(1f).testTag("admin_button")
                         ) {
                             Text(
                                 Translations.translate("admin", state.language),
@@ -1365,7 +1339,8 @@ fun SmsScanningScreen(
                         text = state.smsResult,
                         fontSize = (14 * state.textScale).sp,
                         fontWeight = FontWeight.SemiBold,
-                        color = textColor
+                        color = textColor,
+                        modifier = Modifier.testTag("sms_result_text")
                     )
                 }
             }
@@ -1699,6 +1674,12 @@ fun LearningScreen(
     accentColor: Color,
     viewModel: SafeBankViewModel
 ) {
+    var selectedTip by remember { mutableStateOf<LocalSafetyTip?>(null) }
+
+    BackHandler(enabled = selectedTip != null) {
+        selectedTip = null
+    }
+
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -1743,7 +1724,10 @@ fun LearningScreen(
             Card(
                 colors = CardDefaults.cardColors(containerColor = cardBgColor),
                 elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { selectedTip = tip }
+                    .testTag("tip_card"),
                 border = if (isHighContrast) BorderStroke(1.dp, Color.Yellow) else null
             ) {
                 Column(modifier = Modifier.padding(14.dp)) {
@@ -1806,6 +1790,48 @@ fun LearningScreen(
         item {
             Spacer(modifier = Modifier.height(40.dp))
         }
+    }
+
+    if (selectedTip != null) {
+        val detailTitle = when (state.language) {
+            AppLanguage.TELUGU -> selectedTip!!.titleTe
+            AppLanguage.HINDI -> selectedTip!!.titleHi
+            AppLanguage.TAMIL -> selectedTip!!.titleTa
+            else -> selectedTip!!.titleEn
+        }
+        val detailContent = when (state.language) {
+            AppLanguage.TELUGU -> selectedTip!!.contentTe
+            AppLanguage.HINDI -> selectedTip!!.contentHi
+            AppLanguage.TAMIL -> selectedTip!!.contentTa
+            else -> selectedTip!!.contentEn
+        }
+        AlertDialog(
+            onDismissRequest = { selectedTip = null },
+            title = {
+                Text(
+                    text = detailTitle,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = (18 * state.textScale).sp,
+                    color = textColor
+                )
+            },
+            text = {
+                Text(
+                    text = detailContent,
+                    fontSize = (14 * state.textScale).sp,
+                    color = textColor
+                )
+            },
+            confirmButton = {
+                TextButton(
+                    onClick = { selectedTip = null },
+                    modifier = Modifier.testTag("dialog_close_btn")
+                ) {
+                    Text("Close", color = if (isHighContrast) Color.Yellow else primaryColor, fontWeight = FontWeight.Bold)
+                }
+            },
+            containerColor = cardBgColor
+        )
     }
 }
 
@@ -2140,7 +2166,7 @@ fun ReportFraudScreen(
                                 color = textColor,
                                 fontSize = (14 * state.textScale).sp
                             )
-                            IconButton(onClick = { viewModel.deleteReport(item.id) }, modifier = Modifier.size(24.dp)) {
+                            IconButton(onClick = { viewModel.deleteReport(item.id) }, modifier = Modifier.size(24.dp).testTag("delete_report_btn")) {
                                 Icon(imageVector = Icons.Default.Delete, contentDescription = "Delete record", tint = Color.Red)
                             }
                         }
@@ -2344,7 +2370,7 @@ fun EmergencySosScreen(
                 Button(
                     onClick = { viewModel.addEmergencyContact() },
                     colors = ButtonDefaults.buttonColors(containerColor = primaryColor),
-                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+                    modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag("add_contact_btn"),
                     shape = RoundedCornerShape(8.dp)
                 ) {
                     Text(Translations.translate("btnAddContact", state.language), fontSize = 12.sp, fontWeight = FontWeight.Bold)
@@ -2403,7 +2429,8 @@ fun SettingsScreen(
             text = Translations.translate("settingsTitle", state.language),
             fontWeight = FontWeight.Bold,
             fontSize = (18 * state.textScale).sp,
-            color = textColor
+            color = textColor,
+            modifier = Modifier.testTag("settings_title")
         )
 
         Card(

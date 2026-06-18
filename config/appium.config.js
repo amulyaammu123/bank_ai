@@ -24,8 +24,9 @@ const config = {
     'appium:platformVersion': process.env.PLATFORM_VERSION || '13.0',
     'appium:newCommandTimeout': 3600,
     'appium:autoGrantPermissions': true,
-    'appium:noReset': false,
+    'appium:noReset': true,
     'appium:fullReset': false,
+    'appium:ignoreHiddenApiPolicyError': true,
     
     // Performance and logging options
     'appium:recordDeviceLogs': true,

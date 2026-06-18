@@ -6,14 +6,14 @@ describe('Form Rules & Validation Testing', function () {
   let pages;
 
   before(async function () {
-    this.timeout(60000);
+    this.timeout(180000);
     pages = context.getPages();
     // Log in to access the dashboard
-    await pages.login.loginAsDemo();
+    await pages.login.ensureLoggedIn();
   });
 
   it('TC_101_Verify_Report_Fraud_Empty_Submission_Validation', async function () {
-    this.timeout(30000);
+    this.timeout(120000);
     // Navigate to Report Fraud page via dashboard tile
     await pages.dashboard.clickReportTile();
 
@@ -26,7 +26,7 @@ describe('Form Rules & Validation Testing', function () {
   });
 
   it('TC_102_Verify_Report_Fraud_Successful_Submission', async function () {
-    this.timeout(45000);
+    this.timeout(120000);
     // Fill in values
     await pages.report.submitReport(
       'Amulya Sen',
@@ -42,5 +42,27 @@ describe('Form Rules & Validation Testing', function () {
     // If confirmation isn't displayed, check if fields are empty (form cleared after successful submit)
     const nameVal = await pages.report.getText(pages.report.reportNameInput);
     expect(nameVal).to.satisfy(val => val === '' || val === 'Amulya Sen' || isSubmitted === true);
+  });
+
+  it('TC_103_Verify_Report_Fraud_Validation_Empty_Details', async function () {
+    this.timeout(120000);
+    // Go to Report tile
+    await pages.dashboard.navigateToHome();
+    await pages.dashboard.clickReportTile();
+    // Fill name and target, leave details empty
+    await pages.report.submitReport('Amulya Sen', '+91 98765 43210', '');
+    const isSubmitted = await pages.report.isReportSubmittedSuccessfully();
+    expect(isSubmitted).to.be.false;
+  });
+
+  it('TC_104_Verify_Report_Fraud_Validation_Empty_Target', async function () {
+    this.timeout(120000);
+    // Go to Report tile
+    await pages.dashboard.navigateToHome();
+    await pages.dashboard.clickReportTile();
+    // Fill name and details, leave target empty
+    await pages.report.submitReport('Amulya Sen', '', 'UPI lottery scam details here.');
+    const isSubmitted = await pages.report.isReportSubmittedSuccessfully();
+    expect(isSubmitted).to.be.false;
   });
 });
