@@ -17,6 +17,7 @@
     "test:admin": "mocha tests/admin.test.js --timeout 180000 --reporter mochawesome"
   },
   "dependencies": {
+    "appium": "^2.11.3",
     "chai": "^4.3.10",
     "dotenv": "^16.4.5",
     "exceljs": "^4.4.0",

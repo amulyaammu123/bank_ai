@@ -48,15 +48,14 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: |
-            # Install Appium and UIAutomator2 Driver
-            npm install -g appium@latest
-            appium driver install uiautomator2
+            # Install project test dependencies (including Appium)
+            npm install
+            
+            # Install UIAutomator2 Driver
+            npx appium driver install uiautomator2
             
             # Start Appium Server in the background
-            appium --log ./logs/appium_server.log &
-            
-            # Install project test dependencies
-            npm install
+            npx appium --log ./logs/appium_server.log &
             
             # Run the test runner
             USE_APK=true APK_PATH=./app/build/outputs/apk/debug/app-debug.apk npm test
