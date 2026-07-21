@@ -27,6 +27,14 @@ describe('SafeBank AI E2E Test Suite', function() {
     const loginPage = new LoginPage(driver);
     await loginPage.visit(`${config.baseUrl}/login`);
     await loginPage.login(email, password);
+    await driver.wait(async () => {
+      try {
+        const url = await driver.getCurrentUrl();
+        return url.includes('/dashboard');
+      } catch (e) {
+        return false;
+      }
+    }, 10000);
   }
 
   // ==========================================
@@ -462,7 +470,6 @@ describe('SafeBank AI E2E Test Suite', function() {
 
     it('[TC026] Dashboard loads successfully', async function() {
       const dashboard = new DashboardPage(driver);
-      await dashboard.visit(`${config.baseUrl}/dashboard`);
       excelGenerator.addExecutionLog(new Date(), this.test.title, 'Navigated to Dashboard page', 'SUCCESS');
 
       expect(await dashboard.isDisplayed(dashboard.monthlyReportCard)).to.be.true;
@@ -471,7 +478,6 @@ describe('SafeBank AI E2E Test Suite', function() {
 
     it('[TC027] Threat statistics displayed', async function() {
       const dashboard = new DashboardPage(driver);
-      await dashboard.visit(`${config.baseUrl}/dashboard`);
       excelGenerator.addExecutionLog(new Date(), this.test.title, 'Navigated to Dashboard page', 'SUCCESS');
 
       expect(await dashboard.isDisplayed(dashboard.safetyScore)).to.be.true;
@@ -485,7 +491,6 @@ describe('SafeBank AI E2E Test Suite', function() {
 
     it('[TC028] Filter analytics', async function() {
       const dashboard = new DashboardPage(driver);
-      await dashboard.visit(`${config.baseUrl}/dashboard`);
       excelGenerator.addExecutionLog(new Date(), this.test.title, 'Navigated to Dashboard page', 'SUCCESS');
 
       await dashboard.filterAnalytics('Last 30 Days');
@@ -499,7 +504,6 @@ describe('SafeBank AI E2E Test Suite', function() {
 
     it('[TC029] Monthly fraud report loads', async function() {
       const dashboard = new DashboardPage(driver);
-      await dashboard.visit(`${config.baseUrl}/dashboard`);
       excelGenerator.addExecutionLog(new Date(), this.test.title, 'Navigated to Dashboard page', 'SUCCESS');
 
       await driver.sleep(500); // Wait for React hydration
@@ -520,7 +524,6 @@ describe('SafeBank AI E2E Test Suite', function() {
 
     it('[TC030] Export analytics report', async function() {
       const dashboard = new DashboardPage(driver);
-      await dashboard.visit(`${config.baseUrl}/dashboard`);
       excelGenerator.addExecutionLog(new Date(), this.test.title, 'Navigated to Dashboard page', 'SUCCESS');
 
       await driver.sleep(500); // Wait for React hydration
