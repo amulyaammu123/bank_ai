@@ -22,14 +22,25 @@ class SmsPage extends BasePage {
   // Actions
   async scanSmsText(text) {
     logger.info(`Scanning SMS text: "${text}"`);
-    await this.setValue(this.smsInputField, text);
+    if (text !== undefined && text !== null) {
+      await this.setValue(this.smsInputField, text);
+    }
     try {
-      if (await this.driver.isKeyboardShown()) {
-        await this.driver.hideKeyboard();
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      }
+      await this.pressBack();
+      await new Promise(resolve => setTimeout(resolve, 500));
     } catch (err) {}
-    await this.click(this.scanSubmitBtn);
+    
+    try {
+      await this.click(this.scanSubmitBtn);
+    } catch (err) {
+      logger.warn('First click attempt on scanSubmitBtn failed, retrying with fallback...');
+      try {
+        const btn = await this.driver.$('//*[@text="Scan Message" or @text="Scan" or contains(@text, "Scan") or contains(@text, "SCAN") or @class="android.widget.Button"]');
+        await btn.click();
+      } catch (e) {
+        logger.error('Fallback click failed:', e.message);
+      }
+    }
   }
 
   async getScanResult() {

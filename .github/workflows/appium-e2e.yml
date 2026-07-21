@@ -89,16 +89,12 @@ jobs:
           if [ -f logs/appium_server.log ]; then
             echo "=== APPIUM SERVER LOGS ==="
             tail -n 200 logs/appium_server.log
-          else
-            echo "Appium server log file not found."
           fi
           if [ -f logs/appium-execution.log ]; then
             echo "=== APPIUM EXECUTION LOGS ==="
             tail -n 200 logs/appium-execution.log
-          else
-            echo "Appium execution log file not found."
           fi
-          node print_failures.js
+          node print_failures.js || true
 
       - name: Upload Test Reports
         if: always()
