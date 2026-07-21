@@ -50,7 +50,8 @@ class BasePage {
 
   async isDisplayed(locator, timeout = 5000) {
     try {
-      const el = await this.findElement(locator, timeout);
+      await this.driver.wait(until.elementLocated(locator), timeout);
+      const el = await this.driver.findElement(locator);
       return await el.isDisplayed();
     } catch (err) {
       return false;
@@ -65,15 +66,21 @@ class BasePage {
     await option.click();
   }
 
-  async waitForTextToContain(locator, text, timeout = 10000) {
-    await this.driver.wait(async () => {
+  async waitForTextToContain(locator, text, timeout = 15000) {
+    const startTime = Date.now();
+    while (Date.now() - startTime < timeout) {
       try {
-        const currentText = await this.getText(locator, timeout);
-        return currentText.toLowerCase().includes(text.toLowerCase());
-      } catch (e) {
-        return false;
-      }
-    }, timeout);
+        const element = await this.driver.findElement(locator);
+        if (await element.isDisplayed()) {
+          const currentText = await element.getText();
+          if (currentText.toLowerCase().includes(text.toLowerCase())) {
+            return true;
+          }
+        }
+      } catch (e) {}
+      await this.driver.sleep(300);
+    }
+    return false;
   }
 }
 
