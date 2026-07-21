@@ -43,11 +43,11 @@ jobs:
       - name: Run Appium E2E Tests on Emulator
         uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 31
-          target: google_apis
+          api-level: 29
+          target: default
           arch: x86_64
           force-avd-creation: false
-          emulator-options: -no-window -gpu host -noaudio -no-boot-anim -camera-back none
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           script: |
             # Set Appium Home directory locally inside workspace
@@ -77,7 +77,7 @@ jobs:
             curl -s http://127.0.0.1:4723/status || echo "Appium server initialized."
             
             # Run the test runner
-            USE_APK=true APK_PATH=./app/build/outputs/apk/debug/app-debug.apk PLATFORM_VERSION="12.0" npm test
+            USE_APK=true APK_PATH=./app/build/outputs/apk/debug/app-debug.apk PLATFORM_VERSION="10.0" npm test
 
       - name: Print Appium Server Logs on Failure
         if: failure()
