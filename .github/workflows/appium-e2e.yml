@@ -63,9 +63,10 @@ jobs:
             
             # Install project test dependencies (including Appium and UIAutomator2 Driver)
             npm install
+            chmod -R +x node_modules/.bin || true
             
             # Register UIAutomator2 Driver in Appium Home (ignore if already installed)
-            npx appium driver install uiautomator2 || true
+            npx appium driver install uiautomator2@2.34.0 || true
             
             # Start Appium Server in the background
             npx appium --address 127.0.0.1 --port 4723 --log ./logs/appium_server.log > ./logs/appium_startup.log 2>&1 &
