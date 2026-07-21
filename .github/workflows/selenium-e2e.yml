@@ -7,7 +7,7 @@ on:
     branches: [ main, master, dev ]
 
 jobs:
-  test:
+  test-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -41,25 +41,20 @@ jobs:
         HEADLESS: true
         ENVIRONMENT: CI_Pipeline
 
-    - name: Upload Excel E2E Report
+    - name: Upload E2E Selenium Report
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: SafeBankAI_Test_Report
-        path: safebank-web/excel/SafeBankAI_Test_Report.xlsx
-
-    - name: Upload Mochawesome HTML Report
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: HTML-Report
-        path: safebank-web/mochawesome-report/
-
-    - name: Upload Error Screenshots & Failure Logs
-      if: failure() || always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: Failure-Artifacts
+        name: E2E-Selenium-Report
         path: |
-          safebank-web/screenshots/
-          safebank-web/logs/
+          safebank-web/excel/SafeBankAI_Test_Report.xlsx
+          safebank-web/mochawesome-report/
+
+    - name: Upload QA Test Case Suites Catalog
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: QA-Test-Case-Suites
+        path: |
+          test_cases_300.md
+          excel/SafeBank_300_Test_Cases.xlsx

@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
 
 jobs:
-  e2e-tests:
+  test-and-deploy:
     runs-on: ubuntu-latest
     env:
       APPIUM_HOME: ${{ github.workspace }}/.appium
@@ -96,10 +96,19 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: e2e-test-reports
+          name: E2E-Appium-Report
           path: |
             excel/Mobile_E2E_Report.xlsx
             reports/
             logs/
             screenshots/
           retention-days: 14
+
+      - name: Upload QA Test Case Suites Catalog
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Test-Case-Suites
+          path: |
+            test_cases_300.md
+            excel/SafeBank_300_Test_Cases.xlsx
