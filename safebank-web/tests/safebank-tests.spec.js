@@ -27,14 +27,8 @@ describe('SafeBank AI E2E Test Suite', function() {
     const loginPage = new LoginPage(driver);
     await loginPage.visit(`${config.baseUrl}/login`);
     await loginPage.login(email, password);
-    await driver.wait(async () => {
-      try {
-        const url = await driver.getCurrentUrl();
-        return url.includes('/dashboard');
-      } catch (e) {
-        return false;
-      }
-    }, 10000);
+    const dashboard = new DashboardPage(driver);
+    await dashboard.findElement(dashboard.monthlyReportCard, 15000);
   }
 
   // ==========================================
