@@ -53,6 +53,9 @@ jobs:
             # Set Appium Home directory locally inside workspace
             export APPIUM_HOME=$PWD/.appium
             
+            # Ensure output directories exist
+            mkdir -p logs reports excel screenshots
+            
             # Install project test dependencies (including Appium and UIAutomator2 Driver)
             npm install
             
