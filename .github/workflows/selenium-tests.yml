@@ -1,0 +1,60 @@
+name: Selenium End-to-End Test Suite
+
+on:
+  push:
+    branches: [ main, master, dev ]
+  pull_request:
+    branches: [ main, master, dev ]
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+        cache: 'npm'
+        cache-dependency-path: safebank-web/package-lock.json
+
+    - name: Install Root Dependencies
+      working-directory: safebank-web
+      run: npm install
+
+    - name: Install React Application Dependencies
+      working-directory: safebank-web
+      run: npm run setup:app
+
+    - name: Build React Application
+      working-directory: safebank-web
+      run: npm run build:app
+
+    - name: Run E2E Tests on Headless Chrome
+      working-directory: safebank-web
+      run: npm run test:ci
+      env:
+        BROWSER: chrome
+        HEADLESS: true
+        ENVIRONMENT: CI_Pipeline
+
+    - name: Upload E2E Selenium Report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: E2E-Selenium-Report
+        path: |
+          safebank-web/excel/SafeBankAI_Test_Report.xlsx
+          safebank-web/mochawesome-report/
+
+    - name: Upload QA Test Case Suites Catalog
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: QA-Test-Case-Suites
+        path: |
+          test_cases_300.md
+          excel/SafeBank_300_Test_Cases.xlsx
