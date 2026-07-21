@@ -32,13 +32,11 @@ const config = {
     'appium:recordDeviceLogs': true,
     'appium:enableWebviewDetailsCollection': true,
     
-    // Choose between running APK or pre-installed app package
+    'appium:appPackage': process.env.APP_PACKAGE || 'com.safebank.ai',
+    'appium:appActivity': process.env.APP_ACTIVITY || 'com.safebank.ai.MainActivity',
     ...(process.env.USE_APK === 'true' || !process.env.APP_PACKAGE ? {
       'appium:app': path.resolve(process.env.APK_PATH || './app/build/outputs/apk/debug/app-debug.apk'),
-    } : {
-      'appium:appPackage': process.env.APP_PACKAGE || 'com.safebank.ai',
-      'appium:appActivity': process.env.APP_ACTIVITY || 'com.safebank.ai.MainActivity',
-    })
+    } : {})
   }
 };
 
