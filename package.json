@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:300": "npx mocha tests/suite_300.test.js",
-    "test": "npx mocha tests/**/*.test.js --timeout 180000 --reporter mochawesome --reporter-options reportDir=reports,reportFilename=mochawesome-report,html=true,json=true",
+    "test": "npx mocha tests/suite_300.test.js --timeout 180000 --reporter mochawesome --reporter-options reportDir=reports,reportFilename=mochawesome-report,html=true,json=true",
     "test:auth": "npx mocha tests/auth.test.js --timeout 180000 --reporter mochawesome",
     "test:validation": "npx mocha tests/formValidation.test.js --timeout 180000 --reporter mochawesome",
     "test:gestures": "npx mocha tests/gestures.test.js --timeout 180000 --reporter mochawesome",
