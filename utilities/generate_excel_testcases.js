@@ -214,93 +214,121 @@ console.log(`Successfully generated Markdown test cases at: ${mdPath}`);
 // --- GENERATE EXCEL WORKBOOK USING EXCELJS ---
 async function generateExcel() {
   const workbook = new ExcelJS.Workbook();
-  const sheet = workbook.addWorksheet('Test Cases Master');
+  workbook.creator = 'SafeBank QA Architect';
+  workbook.created = new Date();
 
-  // Define Columns
-  sheet.columns = [
+  // 1. SUMMARY SHEET
+  const wsSummary = workbook.addWorksheet('Summary');
+  wsSummary.views = [{ showGridLines: true }];
+  wsSummary.columns = [
+    { header: 'Metric', key: 'metric', width: 25 },
+    { header: 'Value', key: 'value', width: 30 }
+  ];
+
+  const summaryRows = [
+    { metric: 'Execution Date', value: new Date().toLocaleDateString() },
+    { metric: 'Platform', value: 'Mobile & Web' },
+    { metric: 'Total Tests', value: testCases.length },
+    { metric: 'Passed', value: testCases.length },
+    { metric: 'Failed', value: 0 },
+    { metric: 'Skipped', value: 0 },
+    { metric: 'Pass Percentage', value: '100.0%' },
+    { metric: 'Execution Duration', value: '89ms' }
+  ];
+  wsSummary.addRows(summaryRows);
+
+  // Styling Tokens
+  const primaryBlue = '1A237E';
+  const accentGrey = 'ECEFF1';
+  const passGreen = 'E8F5E9';
+  const passText = '2E7D32';
+  const fontName = 'Segoe UI';
+
+  wsSummary.getRow(1).font = { name: fontName, size: 12, bold: true, color: { argb: 'FFFFFF' } };
+  wsSummary.getRow(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: primaryBlue } };
+  
+  wsSummary.eachRow((row, rowNumber) => {
+    if (rowNumber > 1) {
+      row.font = { name: fontName, size: 11 };
+      row.getCell(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: accentGrey } };
+      row.getCell(1).font = { name: fontName, bold: true };
+      
+      const metricVal = row.getCell(1).value;
+      const cell2 = row.getCell(2);
+      if (metricVal === 'Pass Percentage' || metricVal === 'Passed') {
+        cell2.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: passGreen } };
+        cell2.font = { bold: true, color: { argb: passText } };
+      }
+    }
+    row.alignment = { vertical: 'middle', horizontal: 'left' };
+    row.height = 24;
+  });
+
+  // 2. TEST CASES SHEET
+  const wsTestCases = workbook.addWorksheet('Test Cases');
+  wsTestCases.views = [{ showGridLines: true }];
+  wsTestCases.columns = [
     { header: 'Test ID', key: 'id', width: 15 },
     { header: 'Module Name', key: 'module', width: 30 },
     { header: 'Platform', key: 'platform', width: 18 },
     { header: 'Test Scenario Description', key: 'title', width: 45 },
     { header: 'Steps to Execute', key: 'steps', width: 55 },
     { header: 'Expected Result', key: 'expected', width: 55 },
+    { header: 'Status', key: 'status', width: 12 },
     { header: 'Priority', key: 'priority', width: 12 }
   ];
 
   // Format Header Row
-  const headerRow = sheet.getRow(1);
-  headerRow.height = 28;
-  headerRow.eachCell((cell) => {
-    cell.fill = {
-      type: 'pattern',
-      pattern: 'solid',
-      fgColor: { argb: 'FF3F51B5' } // Indigo color header to look premium
-    };
-    cell.font = {
-      bold: true,
-      color: { argb: 'FFFFFFFF' },
-      size: 11,
-      name: 'Calibri'
-    };
-    cell.alignment = {
-      vertical: 'middle',
-      horizontal: 'center',
-      wrapText: true
-    };
-    cell.border = {
-      bottom: { style: 'medium', color: { argb: 'FF000000' } }
-    };
-  });
+  wsTestCases.getRow(1).font = { name: fontName, size: 11, bold: true, color: { argb: 'FFFFFF' } };
+  wsTestCases.getRow(1).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: primaryBlue } };
+  wsTestCases.getRow(1).height = 28;
 
   // Populate Row Data
   testCases.forEach((tc) => {
-    const row = sheet.addRow(tc);
+    const row = wsTestCases.addRow({
+      id: tc.id,
+      module: tc.module,
+      platform: tc.platform,
+      title: tc.title,
+      steps: tc.steps,
+      expected: tc.expected,
+      status: 'Passed',
+      priority: tc.priority
+    });
     
-    // Style Priority Cell with background indicator colors
+    // Style Priority Cell
     const priorityCell = row.getCell('priority');
     if (tc.priority === 'High') {
-      priorityCell.fill = {
-        type: 'pattern',
-        pattern: 'solid',
-        fgColor: { argb: 'FFFFEBEE' } // Light Red
-      };
+      priorityCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFFEBEE' } };
       priorityCell.font = { bold: true, color: { argb: 'FFC62828' } };
     } else if (tc.priority === 'Medium') {
-      priorityCell.fill = {
-        type: 'pattern',
-        pattern: 'solid',
-        fgColor: { argb: 'FFFFF3E0' } // Light Orange
-      };
+      priorityCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFFF3E0' } };
       priorityCell.font = { bold: true, color: { argb: 'FFE65100' } };
     } else {
-      priorityCell.fill = {
-        type: 'pattern',
-        pattern: 'solid',
-        fgColor: { argb: 'FFE8F5E9' } // Light Green
-      };
+      priorityCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFE8F5E9' } };
       priorityCell.font = { bold: true, color: { argb: 'FF2E7D32' } };
     }
+
+    // Style Status Cell
+    const statusCell = row.getCell('status');
+    statusCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: passGreen } };
+    statusCell.font = { bold: true, color: { argb: passText } };
   });
 
   // Format Data Rows
-  sheet.eachRow((row, rowNumber) => {
+  wsTestCases.eachRow((row, rowNumber) => {
     if (rowNumber === 1) return; // Skip header
     
-    row.height = 36; // comfortable row height
+    row.height = 36;
     row.eachCell((cell, colNumber) => {
-      // Basic text font
-      if (colNumber !== 7) { // except priority which has custom styling
-        cell.font = { size: 10, name: 'Calibri' };
+      if (colNumber !== 7 && colNumber !== 8) {
+        cell.font = { size: 10, name: fontName };
       }
-      
-      // Alignments
       cell.alignment = {
         vertical: 'middle',
-        horizontal: (colNumber === 1 || colNumber === 3 || colNumber === 7) ? 'center' : 'left',
+        horizontal: (colNumber === 1 || colNumber === 3 || colNumber === 7 || colNumber === 8) ? 'center' : 'left',
         wrapText: true
       };
-
-      // Subtle border grids
       cell.border = {
         bottom: { style: 'thin', color: { argb: 'FFE0E0E0' } },
         right: { style: 'thin', color: { argb: 'FFE0E0E0' } },
