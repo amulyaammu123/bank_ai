@@ -32,7 +32,9 @@ jobs:
         run: npm install
 
       - name: Execute 300 E2E Selenium & Mobile Test Suite
-        run: npm run test:300
+        run: |
+          chmod -R +x node_modules/.bin || true
+          npm run test:300
 
       - name: Upload E2E Appium Report
         if: always()
