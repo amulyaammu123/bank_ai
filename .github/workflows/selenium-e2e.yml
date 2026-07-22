@@ -34,11 +34,19 @@ jobs:
       - name: Execute 300 E2E Selenium & Mobile Test Suite
         run: npm run test:300
 
-      - name: Upload Test Reports
+      - name: Upload E2E Selenium Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: E2E-300-Test-Report
+          name: E2E-Selenium-Report
+          path: |
+            safebank-web/excel/SafeBankAI_Test_Report.xlsx
+
+      - name: Upload QA Test Case Suites Catalog
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: QA-Test-Case-Suites
           path: |
             test_cases_300.md
             excel/SafeBank_300_Test_Cases.xlsx
