@@ -27,7 +27,6 @@ class CallPage extends BasePage {
   get triggerPoliceCallBtn() {
     return '//*[@resource-id="trigger_police_call" or @content-desc="trigger_police_call" or contains(@text, "Police") or contains(@text, "threat") or contains(@text, "పోలీసు") or contains(@text, "धमकी") or contains(@text, "போலீஸ்")]';
   }
-
   get triggerNormalCallBtn() {
     return '//*[@resource-id="trigger_normal_call" or @content-desc="trigger_normal_call" or contains(@text, "Normal") or contains(@text, "Friend") or contains(@text, "సాధారణ") or contains(@text, "सामान्य") or contains(@text, "சாதாரண")]';
   }
@@ -39,7 +38,6 @@ class CallPage extends BasePage {
   get callPredictionText() {
     return '//*[@text[contains(.,"Risk") or contains(.,"Scam") or contains(.,"Prediction") or contains(.,"Vishing") or contains(.,"Normal") or contains(.,"Trust") or contains(.,"రిస్క్") or contains(.,"जोखिम") or contains(.,"அபாயம்") or contains(.,"సురಕ್ಷితం") or contains(.,"सुरक्षित")]]';
   }
-
   // Actions
   async simulateCustomCall(number) {
     logger.info(`Simulating custom call from number: ${number}`);

@@ -17,4 +17,6 @@ local.properties
 .env
 debug.keystore
 node_modules/
-
+dist/
+safebank-web/react-app/node_modules/
+safebank-web/react-app/dist/
